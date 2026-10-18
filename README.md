@@ -1,22 +1,18 @@
-<!-- ═══════════ HUSSI DEV // MONOCHROME SYSTEM ═══════════ -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=220&section=header&text=HUSSI%20DEV&fontSize=72&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=%3C%20DIGITAL%20ARCHITECT%20%2F%3E&descAlignY=60&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,45:164E63,100:E0F2FE&height=230&section=header&text=HUSSI%20DEV&fontSize=68&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=FROSTBYTE%20%2F%2F%20DIGITAL%20ENGINEERING&descAlignY=60&descSize=16" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2200&pause=700&color=FFFFFF&background=00000000&center=true&vCenter=true&width=700&lines=%5B+SYSTEM+ONLINE+%5D;DESIGNING+BEYOND+LIMITS;CODE+%2F+CREATE+%2F+INNOVATE;BUILDING+THE+NEXT+DIGITAL+ERA" alt="Animated developer status" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2500&pause=650&color=7DD3FC&center=true&vCenter=true&width=650&lines=%E2%9D%84+SYSTEM+FROZEN+IN+PERFECTION;%E2%9A%A1+CREATING+BEYOND+LIMITS;%E2%9C%A7+CODE+IN+THE+COLD;%FROST+THE+ORDINARY.+BUILD+THE+EXTRAORDINARY." alt="Animated winter developer tagline" />
 
-<br/>
-
-<img src="https://img.shields.io/badge/STATUS-BUILDING-FFFFFF?style=flat-square&labelColor=000000" />
-<img src="https://img.shields.io/badge/MODE-CREATIVE-FFFFFF?style=flat-square&labelColor=000000" />
-<img src="https://img.shields.io/badge/LOCATION-PAKISTAN-FFFFFF?style=flat-square&labelColor=000000" />
+<img src="https://img.shields.io/badge/❄_FROSTBYTE-0B1120?style=for-the-badge&labelColor=164E63" />
+<img src="https://img.shields.io/badge/STATUS-BUILDING-E0F2FE?style=for-the-badge&labelColor=0F172A" />
+<img src="https://img.shields.io/badge/LOCATION-PAKISTAN-FFFFFF?style=for-the-badge&labelColor=0F172A" />
 
 <br/><br/>
 
-<a href="https://hussidev9.netlify.app/"><img src="https://img.shields.io/badge/↗_PORTFOLIO-000000?style=for-the-badge&logoColor=white" /></a>
-<a href="https://hussixplugs.netlify.app/"><img src="https://img.shields.io/badge/↗_AGENCY-000000?style=for-the-badge&logoColor=white" /></a>
-<a href="https://github.com/hussixdev"><img src="https://img.shields.io/badge/↗_GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://hussidev9.netlify.app/"><img src="https://img.shields.io/badge/❄_PORTFOLIO-0F172A?style=for-the-badge&logoColor=white" /></a>
+<a href="https://hussixplugs.netlify.app/"><img src="https://img.shields.io/badge/◈_AGENCY-164E63?style=for-the-badge&logoColor=white" /></a>
+<a href="https://github.com/hussixdev"><img src="https://img.shields.io/badge/⌘_GITHUB-030712?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
@@ -24,80 +20,81 @@
 
 <div align="center">
 
-```text
-╔══════════════════════════════════════════════╗
-║                                              ║
-║   H U S S I   D E V   / /   C O R E          ║
-║                                              ║
-║   THINK DIFFERENT.                           ║
-║   DESIGN FEARLESSLY.                         ║
-║   BUILD SOMETHING EXTRAORDINARY.             ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake, if available" />
+
+### ❄️ `WELCOME TO THE FROZEN DIGITAL LAB`
+
+*Where cold precision meets bold imagination.*
 
 </div>
 
-## ◈ `01 — THE DEVELOPER`
+## ❄️ 01 / THE FROSTBYTE IDENTITY
 
-<img align="right" width="125" src="https://api.dicebear.com/9.x/shapes/svg?seed=HussiDev&backgroundColor=000000&shape1Color=ffffff&shape2Color=ffffff&shape3Color=ffffff" alt="Monochrome geometric avatar" />
+<img align="right" width="130" src="https://api.dicebear.com/9.x/shapes/svg?seed=FrostbyteHussi&backgroundColor=0f172a&shape1Color=bae6fd&shape2Color=e0f2fe&shape3Color=ffffff" alt="Custom icy geometric avatar" />
 
-**I'm Hussi Dev** — a developer and digital creator focused on turning ideas into modern digital products.
+I'm **Hussi Dev** — a developer and digital creator focused on building modern websites, AI-powered interfaces, automation tools, interactive portals, and digital experiences with a distinctive visual identity.
 
-I build websites, AI-powered interfaces, automation tools, interactive portals, and custom digital solutions. I care about the details: the interface, the experience, the engineering, and the final result.
+My approach is simple: precise engineering, thoughtful design, and continuous improvement.
 
-- ◉ Web development & interactive experiences
-- ◉ AI tools, APIs & automation
-- ◉ UI/UX design & motion interfaces
-- ◉ Developer utilities & custom applications
-- ◉ Authorized cybersecurity & defensive security
+❄️ Web development  
+🧊 AI tools and automation  
+✧ UI/UX and interactive design  
+⌘ Custom developer utilities  
+◈ Authorized cybersecurity and digital safety
 
 <br clear="right"/>
 
 ---
 
-## ⌘ `02 — TECHNOLOGY MATRIX`
+## 🧊 02 / FROZEN TECHNOLOGY STACK
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,python,java,cpp,php,react,nodejs,git,github,vscode&theme=dark&perline=6" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=html,css,js,python,react,nodejs,git,github,vscode&theme=dark&perline=5" alt="Developer technology icons" />
+
+<br/>
+
+`FRONTEND`　✧　`BACKEND`　✧　`AUTOMATION`　✧　`AI INTEGRATION`
 
 </div>
 
-<div align="center">
+<details>
+<summary>❄️ EXPAND THE DEVELOPMENT MANIFEST</summary>
 
-`FRONTEND`　/　`BACKEND`　/　`AUTOMATION`　/　`AI INTEGRATION`
+- **Web:** Responsive websites, landing pages, interactive applications
+- **AI:** API-connected interfaces and productivity tools
+- **Automation:** Bots, workflow utilities, and integrations
+- **Design:** Frosted-glass interfaces, motion, and custom SVGs
+- **Security:** Authorized testing and defensive security practices
 
-<sub>Technology interests and experience vary by project.</sub>
-
-</div>
+</details>
 
 ---
 
-## ▣ `03 — PROJECT DIVISION`
+## 🧬 03 / PROJECTS UNDER THE ICE
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◧ HUSSI DEV
+### ❄️ HUSSI DEV LAB
 
-**PERSONAL DEVELOPMENT LAB**
+A personal development space for experiments, AI tools, custom web interfaces, and software projects.
 
-A space for coding experiments, developer utilities, AI concepts, web applications, and portfolio projects.
+**SYSTEM:** `DEVELOPMENT`
 
-[⟶ OPEN PORTFOLIO](https://hussidev9.netlify.app/)
+[↗ EXPLORE PORTFOLIO](https://hussidev9.netlify.app/)
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ HUSSI X PLUGS
+### 🧊 HUSSI X PLUGS
 
-**DIGITAL BUSINESS DIVISION**
+A digital business brand focused on web solutions, client portals, and custom business technology.
 
-Digital services, custom portals, web solutions, and business-focused technology projects.
+**SYSTEM:** `DIGITAL SERVICES`
 
-[⟶ OPEN AGENCY](https://hussixplugs.netlify.app/)
+[↗ ENTER AGENCY](https://hussixplugs.netlify.app/)
 
 </td>
 </tr>
@@ -105,60 +102,36 @@ Digital services, custom portals, web solutions, and business-focused technology
 
 ---
 
-## ⬡ `04 — WHAT I BUILD`
+## ✧ 04 / THE WINTER BUILD CYCLE
 
 <div align="center">
 
-| MODULE | CAPABILITY |
-|:---:|:---|
-| `01` | ◈ Responsive websites & web applications |
-| `02` | ◈ AI interfaces, assistants & API integrations |
-| `03` | ◈ Automation tools & Telegram bots |
-| `04` | ◈ Custom dashboards & business portals |
-| `05` | ◈ Authorized security testing & digital safety |
-| `06` | ◈ Account recovery guidance & platform-policy support |
-
-</div>
-
----
-
-## ⟡ `05 — THE BUILD CYCLE`
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1800&pause=500&color=FFFFFF&center=true&vCenter=true&width=520&lines=%5B01%5D+IDEA+%E2%86%92+VISION;%5B02%5D+VISION+%E2%86%92+DESIGN;%5B03%5D+DESIGN+%E2%86%92+CODE;%5B04%5D+CODE+%E2%86%92+CREATION;%5B05%5D+REPEAT.+IMPROVE.+EVOLVE." alt="Animated build cycle" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1900&pause=450&color=BAE6FD&center=true&vCenter=true&width=560&lines=%5B+01+%5D+IDEA+%E2%86%92+SPARK;%5B+02+%5D+DESIGN+%E2%86%92+STRUCTURE;%5B+03+%5D+CODE+%E2%86%92+CREATION;%5B+04+%5D+TEST+%E2%86%92+PERFECTION;%5B+05+%5D+DEPLOY+%E2%86%92+EVOLVE" alt="Animated winter development cycle" />
 
 </div>
 
 ```js
-const philosophy = {
-  design: "Make it unforgettable",
-  engineering: "Make it functional",
-  experience: "Make it intuitive",
-  mindset: "Never stop evolving"
+const frostbyte = {
+  creator: "Hussi Dev",
+  philosophy: "Precision over noise",
+  design: "Cold. Clean. Distinctive.",
+  mission: "Turn ambitious ideas into useful products",
+  nextMove: "Build something unforgettable ❄️"
 };
 ```
 
 ---
 
-## ◎ `06 — CONNECT TO THE NETWORK`
+## 🌨️ 05 / ESTABLISH A CONNECTION
 
 <div align="center">
 
-<a href="mailto:hussidevv@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email" /></a>
+<a href="mailto:hussidevv@gmail.com"><img src="https://img.shields.io/badge/EMAIL-E0F2FE?style=for-the-badge&logo=gmail&logoColor=0F172A" alt="Business email" /></a>
+<a href="https://wa.me/923203405324"><img src="https://img.shields.io/badge/WHATSAPP-E0F2FE?style=for-the-badge&logo=whatsapp&logoColor=0F172A" alt="WhatsApp" /></a>
+<a href="https://t.me/itzhussi"><img src="https://img.shields.io/badge/TELEGRAM-E0F2FE?style=for-the-badge&logo=telegram&logoColor=0F172A" alt="Telegram" /></a>
+<a href="https://www.tiktok.com/@itz_hussi2"><img src="https://img.shields.io/badge/TIKTOK-E0F2FE?style=for-the-badge&logo=tiktok&logoColor=0F172A" alt="TikTok" /></a>
 
-<a href="https://wa.me/923203405324"><img src="https://img.shields.io/badge/WHATSAPP-FFFFFF?style=for-the-badge&logo=whatsapp&logoColor=000000" alt="WhatsApp" /></a>
-
-<a href="https://t.me/itzhussi"><img src="https://img.shields.io/badge/TELEGRAM-FFFFFF?style=for-the-badge&logo=telegram&logoColor=000000" alt="Telegram" /></a>
-
-<a href="https://www.tiktok.com/@itz_hussi2"><img src="https://img.shields.io/badge/TIKTOK-FFFFFF?style=for-the-badge&logo=tiktok&logoColor=000000" alt="TikTok" /></a>
-
-<a href="https://github.com/hussixdev"><img src="https://img.shields.io/badge/GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub" /></a>
-
-<br/>
-
-**BUSINESS INQUIRIES:** `hussidevv@gmail.com`
-
+**BUSINESS:** `hussidevv@gmail.com`  
 **LOCATION:** `KARACHI, PAKISTAN`
 
 </div>
@@ -167,14 +140,13 @@ const philosophy = {
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=130&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F2FE,50:164E63,100:030712&height=150&section=footer" />
 
-### `HUSSI DEV ®`
-
-**LESS NOISE. MORE INNOVATION.**
+### `❄️ HUSSI DEV — BUILT DIFFERENT. FROZEN IN PRECISION. ❄️`
 
 `[ END OF TRANSMISSION ]`
 
-<sub>ENGINEERED WITH CURIOSITY · POWERED BY CREATIVITY</sub>
+<sub>ICE-COLD DESIGN · CLEAN ENGINEERING · LIMITLESS IDEAS</sub>
 
 </div>
+
