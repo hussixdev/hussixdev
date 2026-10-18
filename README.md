@@ -1,543 +1,770 @@
+# ❄️ HUSSI DEV — ARCTIC OS 2.0
+## ULTIMATE WINTER DEVELOPER EXPERIENCE • FULL UI/UX MASTER PROMPT
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#030712">
-<title>HUSSI DEV — ARCTIC OS</title>
-<style>
-:root {
-  --bg: #030712;
-  --panel: rgba(15, 23, 42, .72);
-  --ice: #bae6fd;
-  --white: #f8fafc;
-  --muted: #94a3b8;
-  --line: rgba(186, 230, 253, .22);
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  color: var(--white);
-  background:
-    radial-gradient(ellipse at 15% 10%, #102b42 0, transparent 36%),
-    radial-gradient(ellipse at 85% 40%, #102034 0, transparent 35%),
-    var(--bg);
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  overflow-x: hidden;
-}
-a { color: inherit; text-decoration: none; }
-button, a { -webkit-tap-highlight-color: transparent; }
-::selection { background: var(--ice); color: #030712; }
+Build an extraordinary, futuristic, ultra-premium developer portfolio for **HUSSI DEV**, titled **ARCTIC OS — THE FROZEN DIGITAL UNIVERSE**.
 
-#snow {
-  position: fixed;
-  inset: 0;
-  z-index: 5;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.noise {
-  position: fixed;
-  inset: 0;
-  z-index: 4;
-  pointer-events: none;
-  opacity: .13;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E");
-}
-.aurora {
-  position: fixed;
-  z-index: -1;
-  width: 80vw;
-  height: 45vw;
-  top: -20vw;
-  left: 10vw;
-  background: #38bdf8;
-  filter: blur(150px);
-  opacity: .08;
-  border-radius: 50%;
-  animation: aurora 14s ease-in-out infinite alternate;
-}
-@keyframes aurora {
-  from { transform: translate(-10%, 0) rotate(-10deg); opacity: .04; }
-  to { transform: translate(10%, 35%) rotate(15deg); opacity: .13; }
-}
-@keyframes float {
-  0%,100% { transform: translateY(0); }
-  50% { transform: translateY(-12px); }
-}
-@keyframes glow {
-  0%,100% { box-shadow: 0 0 15px #38bdf815; }
-  50% { box-shadow: 0 0 35px #38bdf835; }
-}
-@keyframes rotate {
-  to { transform: rotate(360deg); }
-}
-@keyframes shine {
-  from { background-position: -200% 0; }
-  to { background-position: 200% 0; }
-}
-@keyframes enter {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.wrap { width: min(1120px, 90%); margin: auto; }
-nav {
-  position: sticky;
-  top: 12px;
-  z-index: 20;
-  width: min(1120px, 94%);
-  margin: 12px auto 0;
-  padding: 13px 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: #030712c9;
-  backdrop-filter: blur(22px);
-}
-.logo {
-  font-size: 16px;
-  font-weight: 950;
-  letter-spacing: 2px;
-}
-.logo span { color: var(--ice); }
-.navlinks { display: flex; gap: 22px; color: var(--muted); font-size: 12px; }
-.navlinks a:hover { color: var(--ice); }
-.status {
-  font: 10px ui-monospace, monospace;
-  color: var(--ice);
-  white-space: nowrap;
-}
-.status::before {
-  content: "";
-  display: inline-block;
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  margin-right: 7px;
-  background: #a7f3d0;
-  box-shadow: 0 0 12px #a7f3d0;
-}
-.hero {
-  min-height: 680px;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  position: relative;
-  padding: 100px 0 80px;
-}
-.orbit {
-  position: absolute;
-  width: min(75vw, 520px);
-  aspect-ratio: 1;
-  border: 1px solid #bae6fd17;
-  border-radius: 50%;
-  animation: rotate 55s linear infinite;
-  pointer-events: none;
-}
-.orbit::before, .orbit::after {
-  content: "❄";
-  position: absolute;
-  color: var(--ice);
-  font-size: 25px;
-  text-shadow: 0 0 22px #7dd3fc;
-}
-.orbit::before { top: 10%; left: 15%; }
-.orbit::after { bottom: 12%; right: 12%; }
-.hero-content { position: relative; z-index: 2; animation: enter 1s ease both; }
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 15px;
-  border: 1px solid var(--line);
-  border-radius: 100px;
-  background: #bae6fd09;
-  color: var(--ice);
-  font: 10px ui-monospace, monospace;
-  letter-spacing: 2px;
-}
-.hero h1 {
-  font-size: clamp(58px, 12vw, 132px);
-  letter-spacing: -.09em;
-  line-height: .92;
-  margin: 30px 0 22px;
-  font-weight: 1000;
-}
-.hero h1 span {
-  color: transparent;
-  background: linear-gradient(110deg, #fff 5%, #bae6fd 35%, #fff 50%, #64748b 70%, #fff);
-  background-size: 220% 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  animation: shine 7s linear infinite;
-}
-.hero p {
-  max-width: 590px;
-  margin: auto;
-  line-height: 1.8;
-  color: var(--muted);
-  font-size: 15px;
-}
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 30px;
-}
-.btn {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 9px;
-  border-radius: 12px;
-  padding: 14px 20px;
-  border: 1px solid var(--line);
-  font-size: 12px;
-  font-weight: 800;
-  transition: transform .25s, background .25s, box-shadow .25s;
-}
-.btn:hover { transform: translateY(-4px); box-shadow: 0 10px 35px #38bdf822; }
-.primary { background: var(--white); color: #030712; }
-.secondary { background: #ffffff08; }
-.emblem {
-  width: 110px;
-  height: 110px;
-  margin: 30px auto 0;
-  animation: float 5s ease-in-out infinite;
-  filter: drop-shadow(0 0 20px #7dd3fc44);
-}
-.section { padding: 75px 0; }
-.section-head { margin-bottom: 30px; }
-.kicker {
-  color: var(--ice);
-  font: 10px ui-monospace, monospace;
-  letter-spacing: 3px;
-}
-.section h2 {
-  font-size: clamp(30px, 5vw, 54px);
-  letter-spacing: -.05em;
-  margin: 12px 0;
-}
-.muted { color: var(--muted); line-height: 1.8; }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 15px;
-}
-.card {
-  position: relative;
-  padding: 25px;
-  min-height: 190px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: linear-gradient(145deg, #ffffff0a, #ffffff02);
-  overflow: hidden;
-  transition: transform .3s, border-color .3s, background .3s;
-}
-.card::after {
-  content: "";
-  position: absolute;
-  top: 0; left: -120%;
-  height: 1px; width: 100%;
-  background: linear-gradient(90deg, transparent, var(--ice), transparent);
-  transition: left .7s;
-}
-.card:hover { transform: translateY(-7px); border-color: #bae6fd88; background: #bae6fd08; }
-.card:hover::after { left: 120%; }
-.card-icon {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  color: var(--ice);
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.card h3 { font-size: 16px; margin: 0 0 10px; }
-.card p { color: var(--muted); font-size: 12px; line-height: 1.8; margin: 0; }
-.tech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-}
-.chip {
-  padding: 11px 14px;
-  background: #ffffff06;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  color: #e2e8f0;
-  font: 11px ui-monospace, monospace;
-}
-.contact {
-  padding: 35px;
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  background: radial-gradient(ellipse at top, #164e632a, transparent 70%), #ffffff04;
-  text-align: center;
-  animation: glow 6s ease-in-out infinite;
-}
-.contact h2 { font-size: clamp(30px, 5vw, 52px); margin: 15px 0; }
-.contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 24px;
-}
-footer {
-  padding: 40px 0;
-  text-align: center;
-  color: var(--muted);
-  font: 10px ui-monospace, monospace;
-  letter-spacing: 2px;
-}
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s, transform .7s; }
-.reveal.visible { opacity: 1; transform: translateY(0); }
-@media(max-width:760px) {
-  .navlinks { display: none; }
-  .hero { min-height: 600px; }
-  .grid { grid-template-columns: 1fr; }
-  .card { min-height: 155px; }
-  .section { padding: 55px 0; }
-  .contact { padding: 25px 15px; }
-}
-@media(prefers-reduced-motion:reduce) {
-  *,*::before,*::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: .01ms !important;
-  }
-}
-</style>
-</head>
-<body>
-<canvas id="snow" aria-hidden="true"></canvas>
-<div class="noise"></div>
-<div class="aurora"></div>
+This must NOT look like a generic portfolio template, ordinary landing page, or basic AI-generated website. Create a unique interactive digital experience that feels like a combination of a futuristic operating system, a cinematic winter game, an elite software engineering workstation, and an immersive frozen cyber universe.
 
-<nav>
-  <a class="logo" href="#home">HUSSI<span>DEV</span> ❄</a>
-  <div class="navlinks">
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#stack">Tech</a>
-    <a href="#contact">Contact</a>
-  </div>
-  <span class="status">ARCTIC ONLINE</span>
-</nav>
+**DESIGN TARGET:** Extreme visual polish, immersive winter animations, custom SVG illustrations, interactive coding effects, premium typography, detailed interface elements, cinematic transitions, and professional responsive engineering.
 
-<main>
-<section class="hero wrap" id="home">
-  <div class="orbit"></div>
-  <div class="hero-content">
-    <div class="eyebrow">❄ FROSTBYTE EDITION · 2026</div>
-    <h1><span>HUSSI<br>DEV.</span></h1>
-    <p>Building the extraordinary at the intersection of code, creative engineering, AI, and futuristic design.</p>
-    <div class="actions">
-      <a class="btn primary" href="https://hussidev9.netlify.app/">Explore Portfolio ↗</a>
-      <a class="btn secondary" href="https://hussixplugs.netlify.app/">Hussi X Plugs ❄</a>
-    </div>
-    <svg class="emblem" viewBox="0 0 100 100" role="img" aria-label="Animated geometric snowflake">
-      <defs>
-        <linearGradient id="frost" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#fff"/>
-          <stop offset=".5" stop-color="#bae6fd"/>
-          <stop offset="1" stop-color="#64748b"/>
-        </linearGradient>
-      </defs>
-      <g fill="none" stroke="url(#frost)" stroke-width="2.5" stroke-linecap="round">
-        <path d="M50 5V95 M11 27L89 73 M11 73L89 27"/>
-        <path d="M50 5L43 15M50 5L57 15M50 95L43 85M50 95L57 85"/>
-        <path d="M11 27L23 27M11 27L16 38M89 73L77 73M89 73L84 62"/>
-        <path d="M11 73L23 73M11 73L16 62M89 27L77 27M89 27L84 38"/>
-      </g>
-      <circle cx="50" cy="50" r="9" fill="#f8fafc"/>
-      <circle cx="50" cy="50" r="15" fill="none" stroke="#bae6fd" stroke-opacity=".4"/>
-    </svg>
-  </div>
-</section>
+The website must feel alive from the first second the visitor opens it.
 
-<section class="section wrap reveal" id="about">
-  <div class="section-head">
-    <div class="kicker">01 / IDENTITY</div>
-    <h2>Cold precision.<br>Bold imagination.</h2>
-    <p class="muted">I'm Hussi Dev, a digital creator from Karachi, Pakistan. I develop modern web experiences, AI interfaces, automation tools, and custom digital solutions with a distinctive visual identity.</p>
-  </div>
-  <div class="grid">
-    <article class="card">
-      <div class="card-icon">❄</div>
-      <h3>Design the unusual</h3>
-      <p>Strong visual identities, thoughtful details, custom icons, and interfaces built to stand out.</p>
-    </article>
-    <article class="card">
-      <div class="card-icon">⌘</div>
-      <h3>Engineer with purpose</h3>
-      <p>Practical websites and tools designed around real user needs and maintainable code.</p>
-    </article>
-    <article class="card">
-      <div class="card-icon">✧</div>
-      <h3>Always evolving</h3>
-      <p>Experimenting with technologies, refining projects, and learning through building.</p>
-    </article>
-  </div>
-</section>
+---
 
-<section class="section wrap reveal" id="services">
-  <div class="section-head">
-    <div class="kicker">02 / CAPABILITIES</div>
-    <h2>Digital divisions.</h2>
-    <p class="muted">A collection of services and project areas focused on useful, polished digital products.</p>
-  </div>
-  <div class="grid">
-    <article class="card"><div class="card-icon">🌐</div><h3>Web development</h3><p>Responsive websites, landing pages, interactive applications, and dashboards.</p></article>
-    <article class="card"><div class="card-icon">🤖</div><h3>AI & automation</h3><p>AI interfaces, assistant concepts, API integrations, and productivity tools.</p></article>
-    <article class="card"><div class="card-icon">🎨</div><h3>UI/UX engineering</h3><p>Frosted-glass interfaces, custom SVG graphics, motion design, and responsive layouts.</p></article>
-    <article class="card"><div class="card-icon">⚙</div><h3>Developer tools</h3><p>Utilities, coding experiments, workflow tools, and project-specific integrations.</p></article>
-    <article class="card"><div class="card-icon">🛡</div><h3>Defensive security</h3><p>Authorized security testing, digital safety guidance, and account protection.</p></article>
-    <article class="card"><div class="card-icon">◈</div><h3>Business solutions</h3><p>Client portals, custom business interfaces, and digital workflow systems.</p></article>
-  </div>
-</section>
+# 01 — BRAND IDENTITY & VISUAL DIRECTION
 
-<section class="section wrap reveal" id="stack">
-  <div class="section-head">
-    <div class="kicker">03 / TECHNOLOGY</div>
-    <h2>The build matrix.</h2>
-    <p class="muted">Technologies used or explored across development projects.</p>
-  </div>
-  <div class="tech">
-    <span class="chip">HTML5</span><span class="chip">CSS3</span>
-    <span class="chip">JavaScript</span><span class="chip">Python</span>
-    <span class="chip">React</span><span class="chip">Node.js</span>
-    <span class="chip">Git</span><span class="chip">GitHub</span>
-    <span class="chip">REST APIs</span><span class="chip">SVG</span>
-    <span class="chip">Responsive UI</span><span class="chip">Automation</span>
-  </div>
-</section>
+Brand: HUSSI DEV  
+Experience name: ARCTIC OS 2.0  
+Tagline: “COLD DESIGN. HOT IDEAS. LIMITLESS BUILDS.”
 
-<section class="section wrap reveal" id="contact">
-  <div class="contact">
-    <div class="kicker">04 / ESTABLISH CONNECTION</div>
-    <h2>Let's build<br>something unreal.</h2>
-    <p class="muted">Have a project, collaboration, or business inquiry? Reach out through one of the channels below.</p>
-    <div class="contact-links">
-      <a class="btn primary" href="mailto:hussidevv@gmail.com">✉ Business Email</a>
-      <a class="btn secondary" href="https://wa.me/923203405324">WhatsApp ↗</a>
-      <a class="btn secondary" href="https://t.me/itzhussi">Telegram ↗</a>
-      <a class="btn secondary" href="https://github.com/hussixdev">GitHub ↗</a>
-      <a class="btn secondary" href="https://www.tiktok.com/@itz_hussi2">TikTok ↗</a>
-    </div>
-    <p class="muted">📍 Karachi, Pakistan</p>
-  </div>
-</section>
-</main>
+Secondary slogans:
+- FREEZE THE ORDINARY.
+- ENGINEER THE IMPOSSIBLE.
+- WHERE CODE MEETS THE FROZEN FRONTIER.
+- BUILT IN THE COLD. POWERED BY CREATIVITY.
+- SYSTEM ONLINE. INNOVATION NEVER SLEEPS.
 
-<footer>
-  <div>❄ HUSSI DEV · ARCTIC OS</div>
-  <p>DESIGNED WITH CURIOSITY · BUILT TO EVOLVE</p>
-  <div>© <span id="year"></span> · END OF TRANSMISSION</div>
-</footer>
+### Premium color system
 
-<script>
-(() => {
-  "use strict";
+Use a sophisticated winter palette:
 
-  const canvas = document.getElementById("snow");
-  const ctx = canvas.getContext("2d");
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  let width = 0;
-  let height = 0;
-  let flakes = [];
-  let animationFrame = 0;
+- Midnight black: `#030712`
+- Obsidian: `#080B12`
+- Arctic navy: `#0B1726`
+- Frozen blue: `#BAE6FD`
+- Ice white: `#F8FAFC`
+- Frost silver: `#CBD5E1`
+- Glacier blue: `#38BDF8`
+- Transparent glass: `rgba(255,255,255,0.045)`
 
-  function resize() {
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    width = window.innerWidth;
-    height = window.innerHeight;
-    canvas.width = width * dpr;
-    canvas.height = height * dpr;
-    canvas.style.width = width + "px";
-    canvas.style.height = height + "px";
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    createFlakes();
-  }
+The dominant appearance must remain **black, white, silver, and ice blue**. Avoid excessive colorful gradients, cartoon visuals, cheap neon effects, oversized rounded cards everywhere, and generic templates.
 
-  function createFlakes() {
-    const count = reducedMotion.matches
-      ? 0
-      : Math.min(150, Math.floor(width / 8));
-    flakes = Array.from({ length: count }, () => ({
-      x: Math.random() * width,
-      y: Math.random() * height,
-      r: Math.random() * 2.4 + .4,
-      speed: Math.random() * .8 + .25,
-      drift: (Math.random() - .5) * .55,
-      alpha: Math.random() * .65 + .2,
-      phase: Math.random() * Math.PI * 2
-    }));
-  }
+Use gradients sparingly, only for frost reflections, icy lighting, and elegant depth.
 
-  function drawSnow() {
-    ctx.clearRect(0, 0, width, height);
-    for (const f of flakes) {
-      f.y += f.speed;
-      f.x += f.drift + Math.sin(f.phase += .008) * .25;
-      if (f.y > height + 5) {
-        f.y = -5;
-        f.x = Math.random() * width;
-      }
-      if (f.x > width + 5) f.x = -5;
-      if (f.x < -5) f.x = width + 5;
+### Typography system
 
-      ctx.beginPath();
-      ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(224,242,254,${f.alpha})`;
-      ctx.shadowBlur = f.r > 1.8 ? 8 : 0;
-      ctx.shadowColor = "#bae6fd";
-      ctx.fill();
-    }
-    ctx.shadowBlur = 0;
-    if (!reducedMotion.matches) {
-      animationFrame = requestAnimationFrame(drawSnow);
-    }
-  }
+Use oversized, bold, editorial typography inspired by elite software brands and cinematic game interfaces.
 
-  function startSnow() {
-    cancelAnimationFrame(animationFrame);
-    ctx.clearRect(0, 0, width, height);
-    if (!reducedMotion.matches) drawSnow();
-  }
+- Main HUSSI DEV heading: massive, bold, custom letter spacing.
+- Section headings: large uppercase typography.
+- Small labels: monospace terminal text.
+- Technical metadata: compact code-style text.
+- Descriptions: clean, readable, professional.
+- Numbers and system readouts: futuristic monospaced typography.
 
-  window.addEventListener("resize", resize, { passive: true });
-  reducedMotion.addEventListener?.("change", () => {
-    createFlakes();
-    startSnow();
-  });
+Create strong visual contrast between giant titles and tiny technical annotations.
 
-  resize();
-  startSnow();
+---
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: .12 });
+# 02 — CINEMATIC WINTER LOADING EXPERIENCE
 
-  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
-  document.getElementById("year").textContent = new Date().getFullYear();
-})();
-</script>
-</body>
-</html>
+Create a spectacular, full-screen opening sequence that feels like booting into a frozen futuristic operating system.
+
+The loading screen must be a complete visual experience, not a simple spinner.
+
+### Loading scene
+
+1. Begin with a pure black screen.
+2. A tiny custom SVG snowflake appears at the center.
+3. The snowflake slowly rotates and expands.
+4. Frost spreads outward from the center through animated SVG paths.
+5. Tiny snow particles begin falling across the screen.
+6. Thin silver circuit lines draw themselves around the snowflake.
+7. The text `INITIALIZING ARCTIC OS` appears with a realistic terminal typing animation.
+8. Display a custom animated progress bar with an icy shimmer.
+9. Show changing system messages:
+   - `ESTABLISHING FROST PROTOCOL`
+   - `GENERATING SNOW PARTICLES`
+   - `INITIALIZING DIGITAL CORE`
+   - `LOADING DEVELOPER ENVIRONMENT`
+   - `CALIBRATING INTERFACE`
+   - `SYSTEM READY`
+10. The HUSSI DEV logo appears through a frozen-glass reveal.
+11. The loading interface dissolves into the homepage with a cinematic transition.
+
+### Loading screen UI
+
+- Massive central custom SVG emblem.
+- Fine snowflakes drifting in multiple layers.
+- Frosted circular rings.
+- Thin animated orbit lines.
+- Progress indicator with percentage.
+- Small system status labels.
+- Subtle scanline and glass effects.
+- Animated particles with varying size, speed, depth, and opacity.
+- A final elegant white flash or frost dissolve, never an unpleasant full-screen strobe.
+
+The loading experience should feel premium, smooth, and intentional.
+
+Important: the loading progress must reflect actual initialization stages rather than pretending a backend or API has loaded. Never trap users in a fake loading screen. Add a reliable timeout and a skip option.
+
+---
+
+# 03 — REAL-TIME SNOWFALL ENGINE
+
+Implement a sophisticated winter particle system across the entire website.
+
+Do not simply place snowflake emoji characters everywhere. Create an original snowfall engine using custom SVG snowflake shapes and a performant Canvas or CSS particle layer.
+
+### Snowfall behavior
+
+- Hundreds of subtle particles on capable desktop devices.
+- Fewer particles on mobile.
+- Multiple depth layers to simulate distant and foreground snow.
+- Different snowflake sizes, rotation angles, drift speeds, and opacity.
+- Natural diagonal movement and gentle wind variations.
+- Occasional larger, detailed SVG snowflakes passing in the foreground.
+- Tiny frost particles that glimmer briefly.
+- Snow accumulating visually along selected interface edges through CSS decorations.
+- Delicate icy reflections as particles pass behind interface panels.
+- Different snow density in the hero, loading scene, and background sections.
+
+Add a wind direction effect that slowly changes over time.
+
+When the visitor moves the mouse, create a subtle localized disturbance in nearby particles. Keep this effect light and elegant.
+
+Snow should remain behind the main content and never interfere with navigation, buttons, reading, or accessibility.
+
+Add an optional snowfall toggle inside the settings panel.
+
+Respect `prefers-reduced-motion`, pause expensive animations when the page is hidden, and optimize particle counts for low-powered devices.
+
+---
+
+# 04 — CUSTOM SVG ART DIRECTION
+
+Create an entire custom SVG icon and decoration library specifically for HUSSI DEV.
+
+Every major section should have its own visual identity.
+
+Do not rely entirely on standard icon libraries or Unicode symbols.
+
+### Required original SVG elements
+
+1. HUSSI DEV Arctic emblem.
+2. Geometric six-branch snowflake logo.
+3. Animated crystalline ice crystal.
+4. Circular frost-core reactor.
+5. Orbiting particle rings.
+6. Minimal developer terminal symbol.
+7. Custom code-bracket emblem.
+8. Frosted browser window icon.
+9. AI neural network symbol.
+10. Security shield with an icy outline.
+11. Custom GitHub-inspired connection symbol.
+12. Frozen cursor and pointer decorations.
+13. Thin technical divider ornaments.
+14. Animated section numbering symbols.
+15. SVG status indicator.
+16. Frosted loading spinner.
+17. Custom project-card corner decorations.
+18. Crystal-inspired social icons.
+19. Abstract mountain and glacier silhouettes.
+20. Large background ice geometry.
+
+### SVG animation quality
+
+Use clean vector paths, stroke-dash animations, carefully timed opacity changes, gradients, masks, clipping paths, and subtle rotations.
+
+Examples:
+
+- Snowflake branches draw themselves progressively.
+- A central crystal emits a gentle light pulse.
+- SVG rings rotate at different speeds.
+- Tiny circles travel along orbital paths.
+- A shield icon draws its outline on hover.
+- Code brackets move apart and return to position.
+- Frost patterns spread across a panel when it enters view.
+- Decorative corner lines illuminate sequentially.
+
+Keep SVGs crisp at every screen size.
+
+Use inline SVG for original artwork, external SVG files where appropriate, and CSS animations for motion.
+
+**Important:** Do not insert thousands of unnecessary SVG nodes. Create reusable, lightweight components with clean geometry.
+
+---
+
+# 05 — INTERACTIVE GAME-STYLE HERO
+
+The homepage must feel like entering a sophisticated winter-themed game world.
+
+Create a full-screen hero scene with cinematic depth, animated environmental layers, and a central developer identity.
+
+### Main composition
+
+At the top, show a thin navigation interface.
+
+In the center, display:
+
+`WELCOME TO`
+
+# HUSSI DEV
+
+`ARCTIC OS // DEVELOPER UNIVERSE`
+
+Below it:
+
+**I BUILD DIGITAL EXPERIENCES THAT PUSH BEYOND THE ORDINARY.**
+
+Use huge white typography with ice-blue edge lighting, animated frost reflections, and subtle letter-by-letter reveals.
+
+### Background environment
+
+- Dark winter sky.
+- Distant animated mountain silhouettes.
+- Slow-moving fog.
+- Floating ice fragments.
+- Tiny stars and snow particles.
+- Large geometric crystal forms.
+- A subtle moon or frozen energy core.
+- Thin grid lines suggesting a digital environment.
+- A perspective floor grid that fades into darkness.
+
+The environment must be original and abstract, not a copied game scene.
+
+### Game-style interface elements
+
+Add floating system panels:
+
+`PLAYER PROFILE // HUSSI DEV`
+
+`CLASS // DIGITAL CREATOR`
+
+`ENVIRONMENT // ARCTIC OS`
+
+`MISSION // BUILD THE NEXT IDEA`
+
+`STATUS // READY TO CREATE`
+
+These are decorative identity labels, not fake player statistics.
+
+### Interactive actions
+
+- `ENTER THE UNIVERSE`
+- `EXPLORE PROJECTS`
+- `OPEN DEVELOPER PROFILE`
+
+Hovering over the main CTA should produce a frost ripple and a clean silver highlight.
+
+Clicking the primary action should smoothly transition to the projects section.
+
+The hero should have a dramatic visual hierarchy, not a wall of text.
+
+---
+
+# 06 — ANIMATED CODE TERMINAL
+
+Create a dedicated developer workstation section titled:
+
+`THE ARCTIC CODE LAB`
+
+This section should look like a premium IDE combined with a futuristic game terminal.
+
+### Terminal layout
+
+Left panel:
+- File explorer.
+- Folder icons drawn with SVG.
+- Project files.
+- Active file indicator.
+- Small system labels.
+
+Center panel:
+- Code editor with syntax highlighting.
+- Animated cursor.
+- Typewriter effect.
+- Line numbers.
+- Indentation guides.
+- Frosted editor chrome.
+- Thin white borders.
+
+Right panel:
+- Live preview window.
+- Mini system status.
+- Output log.
+- Build-stage indicator.
+
+### Animated coding sequences
+
+Show carefully authored code snippets appearing character by character.
+
+Example:
+
+```js
+const developer = {
+  name: "HUSSI DEV",
+  environment: "ARCTIC OS",
+  mission: "Build the extraordinary",
+  mode: "CREATE"
+};
+```
+
+Then animate a second example:
+
+```css
+.arctic-interface {
+  background: #030712;
+  color: #f8fafc;
+  border: 1px solid #bae6fd;
+}
+```
+
+Show an illustrative build sequence:
+
+`COMPILING INTERFACE...`
+
+`GENERATING SVG ASSETS...`
+
+`RENDERING FROST PARTICLES...`
+
+`BUILD COMPLETE`
+
+The demo must be explicitly presented as a simulated visual demonstration, not an actual compiler or AI coding engine.
+
+### Interaction
+
+Allow users to:
+- Switch between a few predefined example files.
+- Change the highlighted code example.
+- Toggle the preview panel.
+- Pause or replay the typing animation.
+- Copy the displayed sample code.
+
+Use real working controls and clipboard behavior.
+
+Do not claim the website can execute arbitrary user code unless a real, secure execution environment has been implemented.
+
+---
+
+# 07 — PREMIUM PROJECT SHOWCASE
+
+Create a project gallery inspired by futuristic software launch dashboards.
+
+Use asymmetric layouts rather than identical cards in a repetitive grid.
+
+### Project card design
+
+Each project card should include:
+- Custom SVG illustration.
+- Large project title.
+- Small category label.
+- One-sentence description.
+- Subtle animated background geometry.
+- Glass border with icy reflections.
+- Hover-driven parallax, kept minimal.
+- Animated corner brackets.
+- Project status indicator.
+- Clear action link.
+
+### Brand projects
+
+**HUSSI DEV PORTFOLIO**
+
+A personal development portfolio for digital projects, software experiments, and creative technology.
+
+Link: `https://hussidev9.netlify.app/`
+
+**HUSSI X PLUGS**
+
+A digital agency identity for business-focused technology services and digital solutions.
+
+Link: `https://hussixplugs.netlify.app/`
+
+**DEVELOPER EXPERIMENTS**
+
+A showcase for coding utilities, AI tool concepts, automation experiments, and interactive web experiences.
+
+Only display projects that actually exist as completed projects. Clearly label concepts, prototypes, and work in progress.
+
+### Hover effects
+
+When a card is hovered:
+1. The border becomes brighter.
+2. A custom SVG ornament draws itself.
+3. The project title shifts upward slightly.
+4. A background crystal changes opacity.
+5. The CTA arrow moves a few pixels.
+6. The background gradient shifts gently.
+
+Do not overuse perspective rotation or excessive scaling.
+
+---
+
+# 08 — ARCTIC SKILLS INTERFACE
+
+Build a technical skills section using a custom constellation-style layout.
+
+Do not use generic progress bars with made-up skill percentages.
+
+Instead, organize technologies into connected groups.
+
+### Groups
+
+**FRONTEND ENGINEERING**
+- HTML
+- CSS
+- JavaScript
+- React, where applicable
+
+**BACKEND & INTEGRATION**
+- Node.js, where applicable
+- REST APIs
+- Authentication integrations
+- Data integrations
+
+**DEVELOPMENT WORKFLOW**
+- Git
+- GitHub
+- Visual Studio Code
+- Testing and debugging
+
+**CREATIVE TECHNOLOGY**
+- SVG design
+- CSS animation
+- Responsive UI/UX
+- Interactive prototypes
+
+**AI & AUTOMATION**
+- AI interface concepts
+- API-based tools
+- Workflow automation
+- Bot development
+
+Display only technologies that reflect the developer's actual skills or current learning.
+
+### Visual presentation
+
+Use a dark constellation field with thin lines connecting technology nodes.
+
+Hovering over a node should:
+- Illuminate its connection lines.
+- Display a short description.
+- Reveal a matching SVG symbol.
+- Show its category.
+- Animate the node with a subtle frost pulse.
+
+The network must remain readable on mobile and accessible by keyboard.
+
+---
+
+# 09 — SERVICES & DIGITAL BUSINESS DIVISION
+
+Create a professional service section with editorial typography and custom SVG illustrations.
+
+Services:
+
+**01 / WEB DEVELOPMENT**
+
+Responsive websites, landing pages, web applications, dashboards, and custom portals.
+
+**02 / AI & AUTOMATION**
+
+AI interfaces, API integrations, assistant concepts, and productivity tools.
+
+**03 / UI/UX DESIGN**
+
+Futuristic interfaces, original SVG graphics, motion design, and responsive user experiences.
+
+**04 / DEVELOPER UTILITIES**
+
+Coding utilities, debugging workflows, project tools, and automation solutions.
+
+**05 / DEFENSIVE CYBERSECURITY**
+
+Authorized assessments, security guidance, digital safety, and protection practices.
+
+**06 / SOCIAL MEDIA SUPPORT**
+
+Account recovery guidance and platform-policy-based content removal assistance through legitimate official processes.
+
+Never promise guaranteed account recoveries or removals. Never offer unauthorized access, credential theft, malicious code, or fraudulent reporting.
+
+Each service should have:
+- A custom SVG icon.
+- An animated number.
+- A large title.
+- A concise description.
+- A subtle border-drawing effect.
+- A functional inquiry link.
+
+---
+
+# 10 — LOADING AND TRANSITION LIBRARY
+
+Build a reusable motion system for the entire experience.
+
+### Transition types
+
+- Frozen-glass reveal.
+- Frost dissolve.
+- Snowflake expansion.
+- Crystal line draw.
+- Frosted panel entrance.
+- Terminal text reveal.
+- Ice-edge illumination.
+- Soft snow particle burst.
+- Section heading letter reveal.
+- SVG outline draw.
+- Staggered project entrance.
+- Modal frost reveal.
+
+Every transition should have a consistent timing system and easing curve.
+
+Suggested timing:
+- Micro-interactions: 150–250 ms.
+- Hover transitions: 200–350 ms.
+- Section reveals: 450–800 ms.
+- Loading sequence: approximately 2–4 seconds.
+- Major scene transitions: 500–900 ms.
+
+These are design targets, not arbitrary delays for every action.
+
+Do not make visitors wait unnecessarily. Returning visitors should be able to enter quickly.
+
+---
+
+# 11 — NAVIGATION & ARCTIC CONTROL CENTER
+
+Build a sophisticated floating navigation bar with:
+
+- Custom SVG HUSSI DEV logo.
+- Home.
+- About.
+- Projects.
+- Skills.
+- Services.
+- Contact.
+- Settings icon.
+
+Use a transparent black glass background with a thin silver border.
+
+On scroll:
+- The bar gains a stronger backdrop blur.
+- Its height reduces slightly.
+- The logo remains visible.
+- The active section is indicated by a small ice-blue line.
+
+### Settings panel
+
+Add a functioning settings drawer containing:
+- Snowfall on/off.
+- Reduced motion.
+- Sound effects on/off, default off.
+- Ambient visual intensity.
+- Light and dark contrast options, with the default winter theme preserved.
+- Reset visual preferences.
+
+Persist harmless visual preferences locally when possible.
+
+All settings must actually affect the interface. Do not include decorative controls that do nothing.
+
+---
+
+# 12 — INTERACTIVE FROST CURSOR
+
+Design a refined cursor enhancement for desktop.
+
+Use:
+- A small white cursor point.
+- A translucent circular ring.
+- A subtle icy trail.
+- Tiny particles on selected interactions.
+- Magnetic-style attraction only on a few primary buttons.
+
+When hovering over a link:
+- The ring expands.
+- The outline becomes ice blue.
+- A tiny SVG sparkle appears.
+- The label becomes brighter.
+
+On mobile, disable custom cursor behavior entirely.
+
+Never hide the normal pointer when custom cursor support is unavailable.
+
+Keep cursor effects lightweight and accessible.
+
+---
+
+# 13 — CONTACT PORTAL
+
+Create an elegant contact area titled:
+
+`ESTABLISH CONNECTION`
+
+Supporting copy:
+
+“Have an ambitious idea, a development project, or a business collaboration in mind? Let's turn it into something extraordinary.”
+
+### Contact information
+
+**Portfolio:** https://hussidev9.netlify.app/
+
+**Agency:** https://hussixplugs.netlify.app/
+
+**GitHub:** https://github.com/hussixdev
+
+**Business Email:** hussidevv@gmail.com
+
+**WhatsApp:** 03203405324
+
+**Telegram:** @itzhussi
+
+**TikTok:** @itz_hussi2
+
+**Location:** Karachi, Pakistan
+
+Create custom SVG social icons that match the winter visual identity while keeping the actual platform recognizable.
+
+### Inquiry form
+
+Include:
+- Full name.
+- Email.
+- Project category.
+- Budget range.
+- Project description.
+- Submit button.
+
+Validate inputs and show useful success or error messages.
+
+Do not pretend a form submission has been delivered unless a real form backend or email service is configured. If no backend exists, provide a clear email-based fallback.
+
+---
+
+# 14 — FOOTER: THE FROZEN SIGNATURE
+
+Create a cinematic footer with:
+- A large HUSSI DEV wordmark.
+- A custom SVG snowflake symbol.
+- Fine silver dividers.
+- Slowly drifting background snow.
+- Portfolio and agency links.
+- Contact icons.
+- A compact location label.
+
+Final slogan:
+
+**COLD DESIGN. HOT IDEAS. LIMITLESS BUILDS.**
+
+Footer terminal text:
+
+`ARCTIC OS // TRANSMISSION COMPLETE`
+
+---
+
+# 15 — RESPONSIVE UI/UX ENGINEERING
+
+The experience must work smoothly on:
+- Mobile phones.
+- Tablets.
+- Laptops.
+- Wide desktop monitors.
+
+Mobile requirements:
+- Compact navigation.
+- Oversized but responsive typography.
+- Reduced snowfall density.
+- Simplified parallax.
+- Touch-friendly controls.
+- No horizontal overflow.
+- Clear contact actions.
+- Lightweight SVG artwork.
+- Fast initial rendering.
+
+Use semantic HTML, accessible labels, keyboard navigation, visible focus states, and adequate contrast.
+
+Animations must respect reduced-motion settings.
+
+Avoid loading dozens of heavy libraries merely to achieve simple effects.
+
+---
+
+# 16 — PERFORMANCE & CODE QUALITY
+
+Use a clean, maintainable project architecture.
+
+Suggested organization:
+
+`src/components/`
+- `ArcticLoader`
+- `SnowfallEngine`
+- `CustomSnowflake`
+- `FrostCursor`
+- `GlassCard`
+- `CodeTerminal`
+- `ProjectShowcase`
+- `SkillsConstellation`
+- `ContactPortal`
+
+`src/styles/`
+- `tokens.css`
+- `animations.css`
+- `layout.css`
+- `responsive.css`
+
+`src/assets/svg/`
+- `arctic-emblem.svg`
+- `snowflake.svg`
+- `crystal.svg`
+- `code-symbol.svg`
+- `security-shield.svg`
+
+`src/`
+- `App`
+- `main`
+
+Use a reusable component system if the chosen platform supports it.
+
+For a single-file build, organize the HTML, CSS, SVG definitions, and JavaScript into clearly labeled sections instead.
+
+### Quality requirements
+
+- No broken links.
+- No missing SVG assets.
+- No console errors.
+- No fake backend functionality.
+- No fake project statistics.
+- No endless loading states.
+- No excessive DOM particle creation.
+- No unsafe execution of arbitrary code.
+- No unnecessary external API dependencies.
+- No hard-coded secrets.
+- No placeholder buttons pretending to work.
+
+Use `requestAnimationFrame` or efficient CSS animation for appropriate motion, cap device-pixel ratios, pause off-screen effects when possible, and test performance on mobile devices.
+
+---
+
+# 17 — FINAL VISUAL ACCEPTANCE TEST
+
+Do not consider the project complete until all of these are satisfied:
+
+[ ] Original HUSSI DEV identity and Arctic OS branding  
+[ ] Cinematic winter loading sequence  
+[ ] Smooth multi-layer snowfall  
+[ ] Custom SVG snowflakes and original emblems  
+[ ] Large, premium typography  
+[ ] Animated aurora and frost effects  
+[ ] Interactive coding terminal with replay and copy controls  
+[ ] Working navigation and project links  
+[ ] Unique project showcase  
+[ ] Skills constellation with meaningful interactions  
+[ ] Functional settings and snowfall toggle  
+[ ] Responsive mobile layout  
+[ ] Contact links use the correct information  
+[ ] Accessible reduced-motion behavior  
+[ ] Fast loading and stable performance  
+[ ] All visible buttons have real behavior  
+[ ] No false claims about AI, APIs, backend services, or completed projects  
+
+## FINAL DIRECTIVE
+
+Create a visually exceptional, fully responsive, winter-themed developer universe that feels handcrafted rather than generated from a generic template.
+
+**The first impression must be unforgettable. The animations must feel smooth. The SVGs must feel original. The code terminal must feel alive. The snow must feel atmospheric. The interface must feel premium.**
+
+Build **HUSSI DEV — ARCTIC OS 2.0** as a complete, polished digital experience with a coherent design system, real interactions, original artwork, and professional engineering.
+
+**FREEZE THE ORDINARY. ENGINEER THE EXTRAORDINARY.** ❄️
 
