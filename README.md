@@ -1,168 +1,543 @@
-<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&customColorList=0,1,2,3&color=0:020617,25:0F172A,60:164E63,100:E0F2FE&height=280&section=header&text=HUSSI%20DEV&fontSize=78&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=❄%20ARCTIC%20DIGITAL%20ENGINEERING%20❄&descAlignY=60&descSize=18" alt="Hussi Dev Arctic header" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#030712">
+<title>HUSSI DEV — ARCTIC OS</title>
+<style>
+:root {
+  --bg: #030712;
+  --panel: rgba(15, 23, 42, .72);
+  --ice: #bae6fd;
+  --white: #f8fafc;
+  --muted: #94a3b8;
+  --line: rgba(186, 230, 253, .22);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--white);
+  background:
+    radial-gradient(ellipse at 15% 10%, #102b42 0, transparent 36%),
+    radial-gradient(ellipse at 85% 40%, #102034 0, transparent 35%),
+    var(--bg);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: var(--ice); color: #030712; }
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2200&pause=600&color=BAE6FD&center=true&vCenter=true&width=850&lines=%E2%9D%84+WINTER+MODE+%3A%3A+ACTIVATED;%E2%9C%A7+ENGINEERING+THE+UNEXPECTED;%E2%9B%84+DESIGN+BEYOND+THE+ORDINARY;%E2%9A%A1+IMAGINE.+BUILD.+DOMINATE." alt="Animated winter status" />
+#snow {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.noise {
+  position: fixed;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: .13;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E");
+}
+.aurora {
+  position: fixed;
+  z-index: -1;
+  width: 80vw;
+  height: 45vw;
+  top: -20vw;
+  left: 10vw;
+  background: #38bdf8;
+  filter: blur(150px);
+  opacity: .08;
+  border-radius: 50%;
+  animation: aurora 14s ease-in-out infinite alternate;
+}
+@keyframes aurora {
+  from { transform: translate(-10%, 0) rotate(-10deg); opacity: .04; }
+  to { transform: translate(10%, 35%) rotate(15deg); opacity: .13; }
+}
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes glow {
+  0%,100% { box-shadow: 0 0 15px #38bdf815; }
+  50% { box-shadow: 0 0 35px #38bdf835; }
+}
+@keyframes rotate {
+  to { transform: rotate(360deg); }
+}
+@keyframes shine {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+@keyframes enter {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.wrap { width: min(1120px, 90%); margin: auto; }
+nav {
+  position: sticky;
+  top: 12px;
+  z-index: 20;
+  width: min(1120px, 94%);
+  margin: 12px auto 0;
+  padding: 13px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #030712c9;
+  backdrop-filter: blur(22px);
+}
+.logo {
+  font-size: 16px;
+  font-weight: 950;
+  letter-spacing: 2px;
+}
+.logo span { color: var(--ice); }
+.navlinks { display: flex; gap: 22px; color: var(--muted); font-size: 12px; }
+.navlinks a:hover { color: var(--ice); }
+.status {
+  font: 10px ui-monospace, monospace;
+  color: var(--ice);
+  white-space: nowrap;
+}
+.status::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  margin-right: 7px;
+  background: #a7f3d0;
+  box-shadow: 0 0 12px #a7f3d0;
+}
+.hero {
+  min-height: 680px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  position: relative;
+  padding: 100px 0 80px;
+}
+.orbit {
+  position: absolute;
+  width: min(75vw, 520px);
+  aspect-ratio: 1;
+  border: 1px solid #bae6fd17;
+  border-radius: 50%;
+  animation: rotate 55s linear infinite;
+  pointer-events: none;
+}
+.orbit::before, .orbit::after {
+  content: "❄";
+  position: absolute;
+  color: var(--ice);
+  font-size: 25px;
+  text-shadow: 0 0 22px #7dd3fc;
+}
+.orbit::before { top: 10%; left: 15%; }
+.orbit::after { bottom: 12%; right: 12%; }
+.hero-content { position: relative; z-index: 2; animation: enter 1s ease both; }
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  background: #bae6fd09;
+  color: var(--ice);
+  font: 10px ui-monospace, monospace;
+  letter-spacing: 2px;
+}
+.hero h1 {
+  font-size: clamp(58px, 12vw, 132px);
+  letter-spacing: -.09em;
+  line-height: .92;
+  margin: 30px 0 22px;
+  font-weight: 1000;
+}
+.hero h1 span {
+  color: transparent;
+  background: linear-gradient(110deg, #fff 5%, #bae6fd 35%, #fff 50%, #64748b 70%, #fff);
+  background-size: 220% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 7s linear infinite;
+}
+.hero p {
+  max-width: 590px;
+  margin: auto;
+  line-height: 1.8;
+  color: var(--muted);
+  font-size: 15px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 12px;
+  padding: 14px 20px;
+  border: 1px solid var(--line);
+  font-size: 12px;
+  font-weight: 800;
+  transition: transform .25s, background .25s, box-shadow .25s;
+}
+.btn:hover { transform: translateY(-4px); box-shadow: 0 10px 35px #38bdf822; }
+.primary { background: var(--white); color: #030712; }
+.secondary { background: #ffffff08; }
+.emblem {
+  width: 110px;
+  height: 110px;
+  margin: 30px auto 0;
+  animation: float 5s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px #7dd3fc44);
+}
+.section { padding: 75px 0; }
+.section-head { margin-bottom: 30px; }
+.kicker {
+  color: var(--ice);
+  font: 10px ui-monospace, monospace;
+  letter-spacing: 3px;
+}
+.section h2 {
+  font-size: clamp(30px, 5vw, 54px);
+  letter-spacing: -.05em;
+  margin: 12px 0;
+}
+.muted { color: var(--muted); line-height: 1.8; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+}
+.card {
+  position: relative;
+  padding: 25px;
+  min-height: 190px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff0a, #ffffff02);
+  overflow: hidden;
+  transition: transform .3s, border-color .3s, background .3s;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -120%;
+  height: 1px; width: 100%;
+  background: linear-gradient(90deg, transparent, var(--ice), transparent);
+  transition: left .7s;
+}
+.card:hover { transform: translateY(-7px); border-color: #bae6fd88; background: #bae6fd08; }
+.card:hover::after { left: 120%; }
+.card-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--ice);
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.card h3 { font-size: 16px; margin: 0 0 10px; }
+.card p { color: var(--muted); font-size: 12px; line-height: 1.8; margin: 0; }
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.chip {
+  padding: 11px 14px;
+  background: #ffffff06;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: #e2e8f0;
+  font: 11px ui-monospace, monospace;
+}
+.contact {
+  padding: 35px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: radial-gradient(ellipse at top, #164e632a, transparent 70%), #ffffff04;
+  text-align: center;
+  animation: glow 6s ease-in-out infinite;
+}
+.contact h2 { font-size: clamp(30px, 5vw, 52px); margin: 15px 0; }
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+footer {
+  padding: 40px 0;
+  text-align: center;
+  color: var(--muted);
+  font: 10px ui-monospace, monospace;
+  letter-spacing: 2px;
+}
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s, transform .7s; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+@media(max-width:760px) {
+  .navlinks { display: none; }
+  .hero { min-height: 600px; }
+  .grid { grid-template-columns: 1fr; }
+  .card { min-height: 155px; }
+  .section { padding: 55px 0; }
+  .contact { padding: 25px 15px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  *,*::before,*::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+</style>
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+<div class="noise"></div>
+<div class="aurora"></div>
 
-<br/>
+<nav>
+  <a class="logo" href="#home">HUSSI<span>DEV</span> ❄</a>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#stack">Tech</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <span class="status">ARCTIC ONLINE</span>
+</nav>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
-  <defs>
-    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#bae6fd"/>
-      <stop offset="100%" stop-color="#64748b"/>
-    </linearGradient>
-  </defs>
-  <circle cx="90" cy="90" r="77" fill="#07111f" stroke="#bae6fd" stroke-width="1.5" stroke-dasharray="5 7"/>
-  <circle cx="90" cy="90" r="62" fill="none" stroke="#ffffff" stroke-opacity=".45"/>
-  <g stroke="url(#ice)" stroke-width="3.5" stroke-linecap="round" fill="none">
-    <path d="M90 34V146 M42 62L138 118 M42 118L138 62"/>
-    <path d="M90 34l-9 12m9-12 9 12 M90 146l-9-12m9 12 9-12"/>
-    <path d="M42 62l14 1m-14-1 5 13 M138 118l-14-1m14 1-5-13"/>
-    <path d="M42 118l14-1m-14 1 5-13 M138 62l-14 1m14-1-5 13"/>
-  </g>
-  <circle cx="90" cy="90" r="18" fill="#e0f2fe"/>
-  <text x="90" y="96" font-family="monospace" font-size="17" font-weight="900" fill="#020617" text-anchor="middle">HD</text>
-</svg>
+<main>
+<section class="hero wrap" id="home">
+  <div class="orbit"></div>
+  <div class="hero-content">
+    <div class="eyebrow">❄ FROSTBYTE EDITION · 2026</div>
+    <h1><span>HUSSI<br>DEV.</span></h1>
+    <p>Building the extraordinary at the intersection of code, creative engineering, AI, and futuristic design.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://hussidev9.netlify.app/">Explore Portfolio ↗</a>
+      <a class="btn secondary" href="https://hussixplugs.netlify.app/">Hussi X Plugs ❄</a>
+    </div>
+    <svg class="emblem" viewBox="0 0 100 100" role="img" aria-label="Animated geometric snowflake">
+      <defs>
+        <linearGradient id="frost" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#fff"/>
+          <stop offset=".5" stop-color="#bae6fd"/>
+          <stop offset="1" stop-color="#64748b"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#frost)" stroke-width="2.5" stroke-linecap="round">
+        <path d="M50 5V95 M11 27L89 73 M11 73L89 27"/>
+        <path d="M50 5L43 15M50 5L57 15M50 95L43 85M50 95L57 85"/>
+        <path d="M11 27L23 27M11 27L16 38M89 73L77 73M89 73L84 62"/>
+        <path d="M11 73L23 73M11 73L16 62M89 27L77 27M89 27L84 38"/>
+      </g>
+      <circle cx="50" cy="50" r="9" fill="#f8fafc"/>
+      <circle cx="50" cy="50" r="15" fill="none" stroke="#bae6fd" stroke-opacity=".4"/>
+    </svg>
+  </div>
+</section>
 
-### ❄️ DIGITAL CREATOR · DEVELOPER · INNOVATOR
+<section class="section wrap reveal" id="about">
+  <div class="section-head">
+    <div class="kicker">01 / IDENTITY</div>
+    <h2>Cold precision.<br>Bold imagination.</h2>
+    <p class="muted">I'm Hussi Dev, a digital creator from Karachi, Pakistan. I develop modern web experiences, AI interfaces, automation tools, and custom digital solutions with a distinctive visual identity.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <div class="card-icon">❄</div>
+      <h3>Design the unusual</h3>
+      <p>Strong visual identities, thoughtful details, custom icons, and interfaces built to stand out.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon">⌘</div>
+      <h3>Engineer with purpose</h3>
+      <p>Practical websites and tools designed around real user needs and maintainable code.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon">✧</div>
+      <h3>Always evolving</h3>
+      <p>Experimenting with technologies, refining projects, and learning through building.</p>
+    </article>
+  </div>
+</section>
 
-`[ SYSTEM ONLINE ]`　`[ ARCTIC CORE ]`　`[ BUILD MODE ]`
+<section class="section wrap reveal" id="services">
+  <div class="section-head">
+    <div class="kicker">02 / CAPABILITIES</div>
+    <h2>Digital divisions.</h2>
+    <p class="muted">A collection of services and project areas focused on useful, polished digital products.</p>
+  </div>
+  <div class="grid">
+    <article class="card"><div class="card-icon">🌐</div><h3>Web development</h3><p>Responsive websites, landing pages, interactive applications, and dashboards.</p></article>
+    <article class="card"><div class="card-icon">🤖</div><h3>AI & automation</h3><p>AI interfaces, assistant concepts, API integrations, and productivity tools.</p></article>
+    <article class="card"><div class="card-icon">🎨</div><h3>UI/UX engineering</h3><p>Frosted-glass interfaces, custom SVG graphics, motion design, and responsive layouts.</p></article>
+    <article class="card"><div class="card-icon">⚙</div><h3>Developer tools</h3><p>Utilities, coding experiments, workflow tools, and project-specific integrations.</p></article>
+    <article class="card"><div class="card-icon">🛡</div><h3>Defensive security</h3><p>Authorized security testing, digital safety guidance, and account protection.</p></article>
+    <article class="card"><div class="card-icon">◈</div><h3>Business solutions</h3><p>Client portals, custom business interfaces, and digital workflow systems.</p></article>
+  </div>
+</section>
 
-<a href="https://hussidev9.netlify.app/"><img src="https://img.shields.io/badge/◈_EXPLORE_PORTFOLIO-FFFFFF?style=for-the-badge&labelColor=020617" alt="Portfolio" /></a>
+<section class="section wrap reveal" id="stack">
+  <div class="section-head">
+    <div class="kicker">03 / TECHNOLOGY</div>
+    <h2>The build matrix.</h2>
+    <p class="muted">Technologies used or explored across development projects.</p>
+  </div>
+  <div class="tech">
+    <span class="chip">HTML5</span><span class="chip">CSS3</span>
+    <span class="chip">JavaScript</span><span class="chip">Python</span>
+    <span class="chip">React</span><span class="chip">Node.js</span>
+    <span class="chip">Git</span><span class="chip">GitHub</span>
+    <span class="chip">REST APIs</span><span class="chip">SVG</span>
+    <span class="chip">Responsive UI</span><span class="chip">Automation</span>
+  </div>
+</section>
 
-<a href="https://hussixplugs.netlify.app/"><img src="https://img.shields.io/badge/❄_HUSSI_X_PLUGS-BAE6FD?style=for-the-badge&labelColor=020617" alt="Agency" /></a>
+<section class="section wrap reveal" id="contact">
+  <div class="contact">
+    <div class="kicker">04 / ESTABLISH CONNECTION</div>
+    <h2>Let's build<br>something unreal.</h2>
+    <p class="muted">Have a project, collaboration, or business inquiry? Reach out through one of the channels below.</p>
+    <div class="contact-links">
+      <a class="btn primary" href="mailto:hussidevv@gmail.com">✉ Business Email</a>
+      <a class="btn secondary" href="https://wa.me/923203405324">WhatsApp ↗</a>
+      <a class="btn secondary" href="https://t.me/itzhussi">Telegram ↗</a>
+      <a class="btn secondary" href="https://github.com/hussixdev">GitHub ↗</a>
+      <a class="btn secondary" href="https://www.tiktok.com/@itz_hussi2">TikTok ↗</a>
+    </div>
+    <p class="muted">📍 Karachi, Pakistan</p>
+  </div>
+</section>
+</main>
 
-<a href="https://github.com/hussixdev"><img src="https://img.shields.io/badge/⌘_GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=FFFFFF" alt="GitHub" /></a>
+<footer>
+  <div>❄ HUSSI DEV · ARCTIC OS</div>
+  <p>DESIGNED WITH CURIOSITY · BUILT TO EVOLVE</p>
+  <div>© <span id="year"></span> · END OF TRANSMISSION</div>
+</footer>
 
-</div>
+<script>
+(() => {
+  "use strict";
 
----
+  const canvas = document.getElementById("snow");
+  const ctx = canvas.getContext("2d");
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let width = 0;
+  let height = 0;
+  let flakes = [];
+  let animationFrame = 0;
 
-<div align="center">
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    width = window.innerWidth;
+    height = window.innerHeight;
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+    canvas.style.width = width + "px";
+    canvas.style.height = height + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    createFlakes();
+  }
 
-# `01 / THE CREATOR`
+  function createFlakes() {
+    const count = reducedMotion.matches
+      ? 0
+      : Math.min(150, Math.floor(width / 8));
+    flakes = Array.from({ length: count }, () => ({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: Math.random() * 2.4 + .4,
+      speed: Math.random() * .8 + .25,
+      drift: (Math.random() - .5) * .55,
+      alpha: Math.random() * .65 + .2,
+      phase: Math.random() * Math.PI * 2
+    }));
+  }
 
-## HUSSI DEV
-### BUILDING THE DIGITAL UNKNOWN.
+  function drawSnow() {
+    ctx.clearRect(0, 0, width, height);
+    for (const f of flakes) {
+      f.y += f.speed;
+      f.x += f.drift + Math.sin(f.phase += .008) * .25;
+      if (f.y > height + 5) {
+        f.y = -5;
+        f.x = Math.random() * width;
+      }
+      if (f.x > width + 5) f.x = -5;
+      if (f.x < -5) f.x = width + 5;
 
-</div>
+      ctx.beginPath();
+      ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(224,242,254,${f.alpha})`;
+      ctx.shadowBlur = f.r > 1.8 ? 8 : 0;
+      ctx.shadowColor = "#bae6fd";
+      ctx.fill();
+    }
+    ctx.shadowBlur = 0;
+    if (!reducedMotion.matches) {
+      animationFrame = requestAnimationFrame(drawSnow);
+    }
+  }
 
-I'm **Hussi Dev**, a developer and digital creator from Karachi, Pakistan. I turn ambitious ideas into interactive websites, AI-powered tools, automation systems, and distinctive digital experiences.
+  function startSnow() {
+    cancelAnimationFrame(animationFrame);
+    ctx.clearRect(0, 0, width, height);
+    if (!reducedMotion.matches) drawSnow();
+  }
 
-I believe great technology should combine **bold visual identity, useful functionality, clean engineering, and unforgettable user experiences.**
+  window.addEventListener("resize", resize, { passive: true });
+  reducedMotion.addEventListener?.("change", () => {
+    createFlakes();
+    startSnow();
+  });
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 135">
-  <rect x="1" y="1" width="718" height="133" rx="14" fill="#07111f" stroke="#64748b" stroke-opacity=".6"/>
-  <g stroke="#bae6fd" fill="none" stroke-width="1.4">
-    <path d="M20 20h30 M20 20v30 M700 20h-30 M700 20v30 M20 115h30 M20 115V85 M700 115h-30 M700 115V85"/>
-    <path d="M75 35v25m-10-15 10-10 10 10m-10 15 10-10m-10 10-10-10" transform="translate(0 0)"/>
-  </g>
-  <text x="360" y="47" text-anchor="middle" fill="#e0f2fe" font-family="monospace" font-size="17" font-weight="bold">THINK INFINITELY.</text>
-  <text x="360" y="73" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="17" font-weight="bold">BUILD FEARLESSLY.</text>
-  <text x="360" y="101" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="11">CREATIVITY × TECHNOLOGY × PRECISION</text>
-</svg>
+  resize();
+  startSnow();
 
----
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: .12 });
 
-<div align="center">
+  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
 
-# `02 / ARCTIC TECHNOLOGY`
-
-</div>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,python,react,nodejs,git,github,vscode&theme=dark&perline=5" alt="Technology stack icons" />
-
-</div>
-
-<box />
-
-| ◈ Division | ❄️ Capabilities |
-|---|---|
-| `01` — Web | Websites, responsive applications, interactive portals |
-| `02` — AI | AI interfaces, API integration, productivity tools |
-| `03` — Design | UI/UX, custom SVGs, motion and visual systems |
-| `04` — Automation | Bots, workflow tools and useful integrations |
-| `05` — Security | Authorized assessments and defensive security |
-| `06` — Business | Client dashboards, digital services and custom portals |
-
-<sub>Technology icons represent tools and interests; experience varies by project.</sub>
-
----
-
-<div align="center">
-
-# `03 / THE DIGITAL DIVISIONS`
-
-</div>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 210">
-  <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#172033"/>
-      <stop offset="1" stop-color="#030712"/>
-    </linearGradient>
-  </defs>
-  <rect x="1" y="1" width="350" height="208" rx="16" fill="url(#panel)" stroke="#94a3b8" stroke-opacity=".7"/>
-  <rect x="369" y="1" width="350" height="208" rx="16" fill="url(#panel)" stroke="#bae6fd" stroke-opacity=".8"/>
-  <g stroke="#e0f2fe" stroke-width="2" fill="none">
-    <rect x="28" y="26" width="44" height="32" rx="4"/>
-    <path d="M28 35h44 M36 30h3 M43 30h3 M42 58v8m-8 0h24"/>
-    <path d="M399 42l17-17 17 17-17 17z M416 25v34 M399 42h34"/>
-  </g>
-  <g fill="#ffffff" font-family="monospace">
-    <text x="28" y="91" font-size="20" font-weight="bold">HUSSI DEV</text>
-    <text x="28" y="117" font-size="11" fill="#bae6fd">PERSONAL DEVELOPMENT LAB</text>
-    <text x="28" y="146" font-size="12">Web · AI · Tools · Innovation</text>
-    <text x="28" y="184" font-size="11" fill="#94a3b8">hussidev9.netlify.app ↗</text>
-    <text x="399" y="91" font-size="20" font-weight="bold">HUSSI X PLUGS</text>
-    <text x="399" y="117" font-size="11" fill="#bae6fd">DIGITAL BUSINESS DIVISION</text>
-    <text x="399" y="146" font-size="12">Portals · Services · Solutions</text>
-    <text x="399" y="184" font-size="11" fill="#94a3b8">hussixplugs.netlify.app ↗</text>
-  </g>
-</svg>
-
-- ❄️ **HUSSI DEV:** <Link url="https://hussidev9.netlify.app/" title="Explore the portfolio" />
-- 🧊 **HUSSI X PLUGS:** <Link url="https://hussixplugs.netlify.app/" title="Explore the agency" />
-
----
-
-<div align="center">
-
-# `04 / CONTACT PORTAL`
-
-### LET'S BUILD SOMETHING EXTRAORDINARY.
-
-<a href="mailto:hussidevv@gmail.com"><img src="https://img.shields.io/badge/✉_BUSINESS_EMAIL-hussidevv%40gmail.com-FFFFFF?style=for-the-badge&labelColor=020617" alt="Business email" /></a>
-
-<a href="https://wa.me/923203405324"><img src="https://img.shields.io/badge/WHATSAPP-03203405324-FFFFFF?style=for-the-badge&logo=whatsapp&logoColor=000000&labelColor=FFFFFF" alt="WhatsApp" /></a>
-
-<a href="https://t.me/itzhussi"><img src="https://img.shields.io/badge/TELEGRAM-@itzhussi-BAE6FD?style=for-the-badge&logo=telegram&logoColor=000000&labelColor=BAE6FD" alt="Telegram" /></a>
-
-<a href="https://www.tiktok.com/@itz_hussi2"><img src="https://img.shields.io/badge/TIKTOK-@itz__hussi2-FFFFFF?style=for-the-badge&logo=tiktok&logoColor=000000&labelColor=FFFFFF" alt="TikTok" /></a>
-
-**📍 KARACHI, PAKISTAN**
-
-</div>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 145">
-  <rect width="720" height="145" rx="12" fill="#030712"/>
-  <path d="M0 18H720 M0 127H720" stroke="#64748b" stroke-opacity=".5"/>
-  <g stroke="#bae6fd" stroke-width="1.5" fill="none" transform="translate(360 35)">
-    <path d="M0-18V18 M-16-9L16 9 M-16 9L16-9 M0-18l-4 6m4-6 4 6 M0 18l-4-6m4 6 4-6"/>
-  </g>
-  <text x="360" y="81" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="22" fill="#ffffff">HUSSI DEV</text>
-  <text x="360" y="105" text-anchor="middle" font-family="monospace" font-size="11" fill="#bae6fd">COLD DESIGN. HOT IDEAS. LIMITLESS BUILDS.</text>
-</svg>
-
-<div align="center">
-
-**`❄️ ARCTIC OS // END OF TRANSMISSION ❄️`**
-
-<sub>ENGINEERED WITH CURIOSITY · POWERED BY INNOVATION</sub>
-
-</div>
-i
