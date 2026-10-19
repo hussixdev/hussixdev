@@ -1,212 +1,135 @@
-![Uploading 1097752477945250037.gif…]()
  <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2500&pause=900&color=BAE6FD&center=true&vCenter=true&width=750&lines=%E2%9D%84%EF%B8%8F+INITIALIZING+FROSTBYTE+SYSTEM...;%E2%9C%A6+WINTER+MODE%3A+ACTIVATED;%E2%9F%A1+DEVELOPER+ENVIRONMENT+ONLINE;%E2%9D%84%EF%B8%8F+ENGINEERING+THE+UNEXPECTED" alt="Animated Frostbyte system boot" />
+
+<img width="100%" src="YOUR_ANIME_WINTER_BANNER_GIF_URL" alt="Hussi Dev — Anime Winter Coding Universe" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2500&pause=800&color=BAE6FD&center=true&vCenter=true&width=750&lines=%E2%9D%84%EF%B8%8F+HUSSI+DEV+%7C+FROSTBYTE;%E2%98%95+LATE+NIGHTS.+COLD+WEATHER.+CLEAN+CODE.;%F0%9F%90%88+CAT+COMPANION+%7C+DEVELOPER+MODE;%E2%9C%A6+BUILDING+MY+OWN+DIGITAL+WORLD" alt="Animated developer introduction" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/◈_SYSTEM-ONLINE-0B1726?style=for-the-badge&labelColor=030712&color=BAE6FD" />
-<img src="https://img.shields.io/badge/❄_MODE-ARCTIC-030712?style=for-the-badge&labelColor=0B1726" />
-<img src="https://img.shields.io/badge/⌘_IDENTITY-CREATOR-030712?style=for-the-badge&labelColor=0B1726" />
+[![GitHub](https://img.shields.io/badge/GITHUB-HUSSIXDEV-0B1726?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hussixdev)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-ICE_BLUE-0B1726?style=for-the-badge&logo=vercel&logoColor=BAE6FD)](https://hussidev9.netlify.app/)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-CONTACT-0B1726?style=for-the-badge&logo=telegram&logoColor=BAE6FD)](https://t.me/itzhussi)
+
+### `❄️ FROSTBYTE // PERSONAL DEVELOPER UNIVERSE`
+
+*Somewhere between the snowfall, the music, and the code.*
+
+</div>
+
+---
+
+## 𓆩 ❄️ 𓆪 ABOUT ME
+
+```text
+╭─────────────────────────────────────────╮
+│  USER       : HUSSI DEV                  │
+│  CLASS      : DIGITAL CREATOR            │
+│  ENVIRONMENT: FROSTBYTE                  │
+│  LOCATION   : KARACHI, PAKISTAN          │
+│  COMPANION  : 🐈 CAT                     │
+│  MODE       : CODE • CREATE • REPEAT     │
+╰─────────────────────────────────────────╯
+```
+
+I'm **HUSSI DEV**, a developer and digital creator who enjoys building futuristic websites, creative tools, animated interfaces, and interactive digital experiences.
+
+My ideal workspace? A quiet winter night, an anime scene playing in the background, a cat somewhere nearby, headphones on, and a terminal full of ideas.
+
+- ❄️ Exploring web development and creative coding.
+- 🎨 Designing unique UI/UX and custom SVG animations.
+- 🤖 Experimenting with AI tools, APIs, and automation.
+- 🐈 Cat energy, late-night coding, and endless curiosity.
+- 🌌 Turning imagination into things people can actually use.
+
+> **“The world goes quiet. The music starts. The code comes alive.”**
+
+## `01 // THE DIGITAL WORKROOM`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,github,git,vscode&theme=dark" alt="Developer tool icons" />
 
 <br/><br/>
 
-[⌘ EXPLORE PORTFOLIO](https://hussidev9.netlify.app/)　·　[❄ FROSTBYTE PROJECTS](https://github.com/hussixdev)　·　[⚡ AGENCY](https://hussixplugs.netlify.app/)
+**BUILD IN SILENCE. LET YOUR PROJECTS SPEAK.**
 
 </div>
 
----
-
-<div align="center">
-
-# ❄️ 𓆩 𝙵𝚁𝙾𝚂𝚃𝙱𝚈𝚃𝙴 𓆪 ❄️
-
-### ᴛʜᴇ ᴀʀᴛ ᴏꜰ ᴇɴɢɪɴᴇᴇʀɪɴɢ ᴛʜᴇ ᴜɴᴇxᴘᴇᴄᴛᴇᴅ
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3500&pause=800&color=E0F2FE&center=true&vCenter=true&width=650&lines=NOT+JUST+CODE.+A+CREATIVE+UNIVERSE.;NOT+JUST+DESIGN.+A+DIGITAL+EXPERIENCE.;FROM+FROZEN+IDEAS+TO+LIVING+INTERFACES." alt="Animated brand philosophy" />
-
-</div>
-
-I'm **HUSSI DEV**, a developer and digital creator from **Karachi, Pakistan**, exploring the intersection of creative engineering, futuristic UI/UX, interactive web experiences, AI-powered tools, and digital innovation.
-
-I build with one goal: turn ambitious ideas into digital experiences that feel different, work beautifully, and leave a lasting impression.
-
-<div align="center">
-
-```text
-╭────────────────────────────────────────────────────╮
-│                                                    │
-│   ❄  DESIGN WITHOUT LIMITS                         │
-│   ◈  ENGINEER WITH PRECISION                       │
-│   ⌘  INNOVATE BEYOND EXPECTATIONS                  │
-│   ⚡  TURN IMAGINATION INTO INTERACTION             │
-│                                                    │
-╰────────────────────────────────────────────────────╯
-```
-
-**BLACK AS MIDNIGHT · WHITE AS SNOW · PRECISION IN EVERY PIXEL**
-
-</div>
-
----
-
-## `01` / ❄️ THE FROSTBYTE DIVISIONS
+## `02 // MY DIGITAL UNIVERSE`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ❄️ WEB ENGINEERING
+### ❄️ HUSSI DEV
 
-Crafting responsive websites, interactive web applications, modern dashboards, custom portals, and immersive digital interfaces.
+Personal portfolio, developer identity, and creative experiments.
 
-`HTML` · `CSS` · `JavaScript`
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI & AUTOMATION
-
-Exploring AI-powered interfaces, intelligent assistant concepts, API integrations, automation workflows, and productivity tools.
-
-`AI INTERFACES` · `APIs` · `AUTOMATION`
+[OPEN PORTFOLIO ↗](https://hussidev9.netlify.app/)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 🧊 UI/UX & SVG MOTION
+### ⚡ HUSSI X PLUGS
 
-Designing original SVG artwork, glassmorphism interfaces, cinematic transitions, animated elements, and carefully crafted visual systems.
+Digital agency identity and technology-focused services.
 
-`SVG` · `MOTION` · `DESIGN`
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ DEFENSIVE TECHNOLOGY
-
-Developing security-focused concepts, defensive utilities, authorized testing workflows, and digital safety solutions.
-
-`SECURITY` · `TESTING` · `PROTECTION`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### ⚡ DIGITAL BUSINESS SOLUTIONS
-
-Custom business websites, client portals, workflow utilities, creative developer tools, and technology solutions designed around real needs.
+[EXPLORE AGENCY ↗](https://hussixplugs.netlify.app/)
 
 </td>
 </tr>
 </table>
 
----
+## `03 // LATE NIGHT LISTENING ROOM` 🎧
 
-## `02` / 🌨️ ARCTIC TECHNOLOGY MATRIX
+*Three doors. One favorite track. Infinite winter vibes.*
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=dark" alt="Core development technology icons" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,python,figma,netlify&theme=dark" alt="Additional development technology icons" />
+<a href="https://www.youtube.com/watch?v=lNOtv1mXbQ8">
+<img src="https://img.youtube.com/vi/lNOtv1mXbQ8/hqdefault.jpg" width="70%" alt="Favorite song YouTube thumbnail" />
+</a>
 
 <br/>
 
-<sub>Technologies shown should reflect your actual skills and tools in use.</sub>
+[![PLAY ON YOUTUBE](https://img.shields.io/badge/▶_PLAY_FAVORITE_TRACK-BAE6FD?style=for-the-badge&labelColor=030712)](https://www.youtube.com/watch?v=lNOtv1mXbQ8)
+
+<br/>
+
+[🎵 Listen — Link 1](https://youtu.be/lNOtv1mXbQ8?si=o5UMjgXIsi3eoFDr) · [🎧 Listen — Link 2](https://youtu.be/lNOtv1mXbQ8?si=7bD1t1ELEz2nRw3i) · [🌙 Listen — Link 3](https://youtu.be/lNOtv1mXbQ8?si=PFdYlrwSHFw3vI-k)
+
+<sub>Same YouTube video, three shared links. Click to listen on YouTube.</sub>
 
 </div>
 
----
-
-## `03` / 🧊 ENTER THE DIGITAL UNIVERSE
+## `04 // THE CAT CORNER` 🐈
 
 <div align="center">
 
-<a href="https://hussidev9.netlify.app/">
-<img src="https://img.shields.io/badge/❄_HUSSI_DEV-PORTFOLIO-030712?style=for-the-badge&labelColor=0B1726" alt="Hussi Dev portfolio" />
-</a>
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="250" alt="Animated coding cat" />
 
-<br/><br/>
+### `STATUS: CAT.exe IS RUNNING`
 
-<a href="https://hussixplugs.netlify.app/">
-<img src="https://img.shields.io/badge/⚡_HUSSI_X_PLUGS-DIGITAL_AGENCY-030712?style=for-the-badge&labelColor=0B1726" alt="Hussi X Plugs agency" />
-</a>
+`🐾 PAW-POWERED DEVELOPMENT`
 
-<br/><br/>
-
-<a href="https://github.com/hussixdev">
-<img src="https://img.shields.io/badge/⌘_GITHUB-CODE_AND_EXPERIMENTS-030712?style=for-the-badge&labelColor=0B1726" alt="Hussi Dev GitHub" />
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0B1726&height=2&section=header" width="85%" />
-
-**EXPERIMENTS IN PROGRESS. IDEAS WITHOUT LIMITS.**
+*The cat does not debug the code. The cat judges it.*
 
 </div>
 
----
-
-## `04` / 💻 THE DEVELOPER CONSOLE
+## `05 // CONNECT TO MY WORLD`
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=700&color=BAE6FD&center=true&vCenter=true&width=650&lines=%24+initializing+creative-engine...;%24+loading+design+systems...;%24+rendering+interactive+experiences...;%24+status%3A+ready+to+build." alt="Developer console animation" />
+[![GitHub](https://img.shields.io/badge/GITHUB-030712?style=for-the-badge&logo=github&logoColor=F8FAFC)](https://github.com/hussixdev)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-030712?style=for-the-badge&logo=telegram&logoColor=BAE6FD)](https://t.me/itzhussi)
+[![TikTok](https://img.shields.io/badge/TIKTOK-030712?style=for-the-badge&logo=tiktok&logoColor=F8FAFC)](https://www.tiktok.com/@itz_hussi2)
+[![Portfolio](https://img.shields.io/badge/WEBSITE-030712?style=for-the-badge&logo=vercel&logoColor=BAE6FD)](https://hussidev9.netlify.app/)
 
-</div>
+<br/>
 
-```javascript
-const hussiDev = {
-  identity: "HUSSI DEV",
-  universe: "FROSTBYTE",
-  location: "Karachi, Pakistan",
-  interests: [
-    "Web Development",
-    "Creative UI/UX",
-    "SVG Animation",
-    "AI & Automation",
-    "Developer Tools"
-  ],
-  philosophy: "Build beyond the ordinary."
-};
+📩 **Business:** [hussidevv@gmail.com](mailto:hussidevv@gmail.com)
 
-console.log("❄️ FROSTBYTE SYSTEM ONLINE");
-```
-
----
-
-## `05` / 📡 ESTABLISH CONNECTION
-
-<div align="center">
-
-<a href="https://github.com/hussixdev">
-<img src="https://img.shields.io/badge/GITHUB-030712?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
-</a>
-<a href="https://t.me/itzhussi">
-<img src="https://img.shields.io/badge/TELEGRAM-030712?style=for-the-badge&logo=telegram&logoColor=BAE6FD" alt="Telegram" />
-</a>
-<a href="https://www.tiktok.com/@itz_hussi2">
-<img src="https://img.shields.io/badge/TIKTOK-030712?style=for-the-badge&logo=tiktok&logoColor=F8FAFC" alt="TikTok" />
-</a>
-<a href="https://hussidev9.netlify.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-030712?style=for-the-badge&logo=vercel&logoColor=BAE6FD" alt="Portfolio" />
-</a>
-
-<br/><br/>
-
-**BUSINESS EMAIL:** [hussidevv@gmail.com](mailto:hussidevv@gmail.com)
-
-**WHATSAPP:** [03203405324](https://wa.me/923203405324)
-
-**TELEGRAM:** [@itzhussi](https://t.me/itzhussi)
-
-**LOCATION:** KARACHI, PAKISTAN ❄️
+📲 **WhatsApp:** [Contact Hussi Dev](https://wa.me/923203405324)
 
 </div>
 
@@ -214,16 +137,14 @@ console.log("❄️ FROSTBYTE SYSTEM ONLINE");
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,35:164E63,70:0B1726,100:02040A&height=180&section=footer&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,50:0B1726,100:030712&height=140&section=footer" width="100%" />
 
-# ❄️ HUSSI DEV
+### ❄️ HUSSI DEV — FROSTBYTE
 
-### ᴡʜᴇʀᴇ ᴄʀᴇᴀᴛɪᴠɪᴛʏ ꜰʀᴇᴇᴢᴇꜱ ɪɴᴛᴏ ᴘᴇʀꜰᴇᴄᴛɪᴏɴ.
+`CODE IN THE COLD. CREATE BEYOND LIMITS.`
 
-`[ SYSTEM ONLINE ]` · `[ WINTER MODE ACTIVATED ]` · `[ INNOVATION NEVER SLEEPS ]`
+**☕ COFFEE. 🎧 MUSIC. 🐈 CATS. 💻 CODE. 🌨️ WINTER.**
 
-**FREEZE THE ORDINARY. ENGINEER THE EXTRAORDINARY.** 🧊⚡
+<sub>END OF TRANSMISSION // SEE YOU IN THE NEXT COMMIT</sub>
 
-<sub>DESIGNED IN THE ARCTIC MINDSET · POWERED BY IMAGINATION</sub>
-
-</div>
+</div>>
