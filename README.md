@@ -1,247 +1,265 @@
-# ❄️ HUSSI DEV — FROSTBYTE // ARCTIC EDITION
-## GITHUB PROFILE README — ULTRA PREMIUM UI/UX MASTER PROMPT
+ <div align="center">
 
-Upgrade my GitHub profile README into an unforgettable, cinematic, winter-themed digital universe for **HUSSI DEV (@hussixdev)**.
+<!-- ═══════ FROSTBYTE CINEMATIC WINTER BANNER ═══════ -->
 
-The design must combine a snowy anime atmosphere, a late-night developer room, a coding workstation, a cute animated cat, frozen-glass panels, custom SVG illustrations, elegant typography, and premium black-and-ice-blue styling.
+<a href="https://github.com/hussixdev">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:02040A,20:081321,50:0B2538,80:164E63,100:BAE6FD&height=280&section=header&text=HUSSI%20DEV&fontSize=78&fontColor=F8FAFC&fontAlignY=38&desc=FROSTBYTE%20%2F%2F%20DIGITAL%20UNIVERSE&descSize=19&descAlignY=59&animation=fadeIn" alt="Hussi Dev cinematic winter banner"/>
+</a>
 
-Do not create a generic GitHub README. Make it look like a carefully designed futuristic developer dashboard.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2300&pause=650&color=BAE6FD&center=true&vCenter=true&width=800&lines=%5BSYSTEM+BOOT%5D+FROSTBYTE+ONLINE;%E2%9D%84+CODING+THROUGH+THE+WINTER+NIGHT;%E2%8C%98+DESIGN.+ENGINEER.+INNOVATE.;%F0%9F%90%88+CAT.exe+IS+SUPERVISING;%E2%9C%A6+WELCOME+TO+MY+DIGITAL+UNIVERSE" alt="Animated Frostbyte terminal"/>
 
-### 01 — FIX THE BANNER FIRST
+<br/>
 
-Use this working image source instead of any placeholder URL:
+<img src="https://img.shields.io/badge/❄_WINTER_MODE-ACTIVE-030712?style=for-the-badge&labelColor=0B1726"/>
+<img src="https://img.shields.io/badge/⌘_DEVELOPER-ONLINE-030712?style=for-the-badge&labelColor=0B1726"/>
+<img src="https://img.shields.io/badge/🐈_CAT.exe-RUNNING-030712?style=for-the-badge&labelColor=0B1726"/>
 
-```html
-<div align="center">
-  <a href="https://github.com/hussixdev">
-    <img
-      src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,35:0B1726,70:164E63,100:BAE6FD&height=280&section=header&text=HUSSI%20DEV&fontSize=78&fontColor=F8FAFC&fontAlignY=38&desc=FROSTBYTE%20%7C%20DIGITAL%20UNIVERSE&descSize=19&descAlignY=60&animation=fadeIn"
-      width="100%"
-      alt="HUSSI DEV — Frostbyte Arctic Developer Universe"
-    />
-  </a>
+<br/><br/>
+
+[![PORTFOLIO](https://img.shields.io/badge/◈_PORTFOLIO-EXPLORE-BAE6FD?style=for-the-badge&labelColor=030712)](https://hussidev9.netlify.app/)
+[![GITHUB](https://img.shields.io/badge/⌘_GITHUB-REPOSITORIES-F8FAFC?style=for-the-badge&labelColor=030712)](https://github.com/hussixdev)
+[![AGENCY](https://img.shields.io/badge/⚡_HUSSI_X_PLUGS-AGENCY-BAE6FD?style=for-the-badge&labelColor=030712)](https://hussixplugs.netlify.app/)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BAE6FD,50:164E63,100:030712&height=2&section=header" width="90%" />
+
+### 𓆩 ❄️ H U S S I   D E V 𓆪
+
+**COLD WEATHER. QUIET ROOMS. LOUD IDEAS. CLEAN CODE.**
+
 </div>
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3200&pause=700&color=E0F2FE&center=true&vCenter=true&width=700&lines=INITIALIZING+CREATIVE+ENGINE...;LOADING+FROSTBYTE+INTERFACE...;CONNECTING+DESIGN+WITH+ENGINEERING...;READY+TO+BUILD+SOMETHING+EXTRAORDINARY." alt="Animated boot messages"/>
+
+</div>
+
+## ❄️ `01 / SYSTEM IDENTITY`
+
+```text
+╭──────────────────────────────────────────────╮
+│  IDENTITY   : HUSSI DEV                      │
+│  UNIVERSE   : FROSTBYTE                       │
+│  ROLE       : DEVELOPER / DIGITAL CREATOR     │
+│  LOCATION   : KARACHI, PAKISTAN               │
+│  ENVIRONMENT: MIDNIGHT CODING ROOM             │
+│  COMPANION  : CAT.exe 🐈                      │
+│  STATUS     : CREATING SOMETHING NEW           │
+╰──────────────────────────────────────────────╯
 ```
 
-This creates a fresh winter-styled banner using a remote image service. For the actual anime GIF, upload the original GIF to your public GitHub repository and use its real URL, for example:
+I'm **HUSSI DEV**, a developer and digital creator exploring futuristic websites, custom interfaces, creative tools, AI-powered concepts, automation, and interactive digital experiences.
 
-`https://raw.githubusercontent.com/hussixdev/hussixdev/main/assets/anime-winter.gif`
+My universe is built around winter nights, anime aesthetics, custom SVGs, music, cats, and code.
 
-Only use that path after uploading the file there. Never leave placeholder image paths in the finished README.
+- ❄️ Web development and responsive digital experiences
+- 🎨 Premium UI/UX, custom SVG artwork, and motion design
+- 🤖 AI interfaces, API integrations, and automation concepts
+- 💻 Coding utilities, creative experiments, and digital tools
+- 🐈 Late-night coding sessions with CAT.exe nearby
 
-Add an animated typing title immediately below the banner:
-
-```html
 <div align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=800&color=BAE6FD&center=true&vCenter=true&width=750&lines=SYSTEM+ONLINE+%7C+FROSTBYTE;COLD+WEATHER.+WARM+IDEAS.;CODING+THROUGH+THE+WINTER+NIGHT;WELCOME+TO+HUSSI+DEV%27S+UNIVERSE"
-    alt="Animated Frostbyte introduction"
-  />
+
+**IMAGINE → DESIGN → ENGINEER → INNOVATE**
+
 </div>
-```
 
-### 02 — ART DIRECTION
+---
 
-Use a consistent palette:
+## 🧊 `02 / FROSTBYTE MOTION LAB`
 
-- `#030712` — midnight black
-- `#080D16` — frozen obsidian
-- `#0B1726` — arctic navy
-- `#BAE6FD` — crystal ice
-- `#38BDF8` — glacier blue
-- `#F8FAFC` — snow white
-- `#CBD5E1` — frost silver
-
-Use thin dividers, icy borders, monospace labels, cinematic spacing, minimal glowing accents, and original SVG artwork.
-
-### 03 — ANIMATED SYSTEM IDENTITY
-
-Under the banner, display:
-
-**❄️ 𓆩 H U S S I   D E V 𓆪 ❄️**
-
-`FROSTBYTE // DIGITAL UNIVERSE`
-
-`[ SYSTEM ONLINE ] [ WINTER MODE ACTIVATED ]`
-
-Add custom SVG snowflakes, small animated status indicators, crystal dividers, and technical metadata.
-
-### 04 — ABOUT THE DEVELOPER
-
-I'm **HUSSI DEV**, a developer and digital creator from Karachi, Pakistan, exploring web development, futuristic interfaces, creative coding, AI-powered tools, and interactive digital experiences.
-
-My world is a mix of winter nights, anime atmosphere, music, cats, and code.
-
-- ❄️ Web development and responsive websites
-- 🎨 UI/UX design and custom SVG animations
-- 🤖 AI interfaces, APIs, and automation concepts
-- 💻 Developer tools and creative experiments
-- 🐈 Coding companion: cat mode enabled
-
-**DESIGN WITHOUT LIMITS. ENGINEER WITH PRECISION.**
-
-### 05 — CUSTOM SVG COLLECTION
-
-Create a coherent set of original, inline SVG illustrations:
-
-1. Six-branch geometric snowflake emblem
-2. Animated crystal reactor
-3. Orbiting ice particles
-4. Snowy mountain silhouette
-5. Minimal laptop and coding workstation
-6. Terminal window with animated cursor
-7. Cute cat sitting beside a monitor
-8. Headphones and music-player symbol
-9. Crystal-style GitHub and social icons
-10. Frosted project-card corner brackets
-11. Animated connection lines
-12. Ice shard section dividers
-
-Use `stroke-dasharray`, `stroke-dashoffset`, gradients, masks, and carefully timed CSS animations where supported.
-
-GitHub sanitizes SVG and HTML content, so do not depend on JavaScript, event handlers, or embedded scripts. For reliable animations, use externally hosted GIFs or supported animated images.
-
-### 06 — DIGITAL CODING ROOM
-
-Create a visually rich section titled:
-
-`// THE MIDNIGHT WORKSTATION`
-
-Include a custom SVG illustration or uploaded GIF showing:
-
-- A dark room lit by icy blue monitor light
-- A computer screen with code
-- A window overlooking a snowy night
-- A small cat sitting beside the keyboard
-- Headphones and a music player
-- Snowflakes and subtle atmospheric smoke
-- A clean terminal-style information panel
-
-Use a dark, cinematic composition with silver typography and minimal ice-blue highlights.
-
-### 07 — PROJECTS & WEBSITES
-
-Display two premium project panels with clear action links.
-
-**01 — HUSSI DEV PORTFOLIO**
-
-Personal developer portfolio and digital experiments.
-
-[OPEN PORTFOLIO ↗](https://hussidev9.netlify.app/)
-
-**02 — HUSSI X PLUGS**
-
-Digital agency and technology-focused services.
-
-[EXPLORE AGENCY ↗](https://hussixplugs.netlify.app/)
-
-**03 — GITHUB LAB**
-
-Source code, experiments, utilities, and future projects.
-
-[ENTER GITHUB ↗](https://github.com/hussixdev)
-
-Each panel should have a unique SVG emblem, icy divider, concise description, and clear link.
-
-### 08 — FAVORITE MUSIC // FROZEN LISTENING ROOM
-
-Create three visual thumbnail entries for the supplied YouTube links. All three links point to the same video, so display them as alternate links to one track rather than pretending they are three different songs.
-
-Use this thumbnail:
-
-`https://img.youtube.com/vi/lNOtv1mXbQ8/hqdefault.jpg`
-
-Example:
-
-```html
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=lNOtv1mXbQ8">
-    <img
-      src="https://img.youtube.com/vi/lNOtv1mXbQ8/hqdefault.jpg"
-      width="420"
-      alt="Hussi Dev favorite track thumbnail"
-    />
-  </a>
 
-  <p><b>🎧 FROSTBYTE LISTENING ROOM</b></p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2400&pause=500&color=BAE6FD&center=true&vCenter=true&width=650&lines=%3Csvg%3E+%E2%86%92+DRAWING+CRYSTAL+GEOMETRY;%3Cmotion%3E+%E2%86%92+GENERATING+ICE+TRAILS;%3Cinterface%3E+%E2%86%92+RENDERING+FROST;%3Csystem%3E+%E2%86%92+MOTION+READY" alt="Motion lab terminal animation"/>
 
-  <a href="https://youtu.be/lNOtv1mXbQ8?si=o5UMjgXIsi3eoFDr">▶ PLAY TRACK</a>
-  ·
-  <a href="https://youtu.be/lNOtv1mXbQ8?si=7bD1t1ELEz2nRw3i">🎵 OPEN VIDEO</a>
-  ·
-  <a href="https://youtu.be/lNOtv1mXbQ8?si=PFdYlrwSHFw3vI-k">🌙 LISTEN AGAIN</a>
+<br/>
+
+<svg width="100%" height="130" viewBox="0 0 720 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iceLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#BAE6FD" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <radialGradient id="iceCore">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0B1726" />
+    </radialGradient>
+  </defs>
+  <path d="M10 65 H710 M60 25 L115 65 L60 105 M660 25 L605 65 L660 105" fill="none" stroke="url(#iceLine)" stroke-width="1.5"/>
+  <g transform="translate(360 65)" stroke="#BAE6FD" stroke-width="2" fill="none">
+    <path d="M0 -42 V42 M-36 -21 L36 21 M-36 21 L36 -21"/>
+    <path d="M0 -42 L-7 -32 M0 -42 L7 -32 M0 42 L-7 32 M0 42 L7 32"/>
+    <path d="M-36 -21 L-23 -21 M-36 -21 L-29 -9 M36 21 L23 21 M36 21 L29 9"/>
+    <path d="M-36 21 L-23 21 M-36 21 L-29 9 M36 -21 L23 -21 M36 -21 L29 -9"/>
+    <circle r="9" fill="url(#iceCore)" stroke="#F8FAFC">
+      <animate attributeName="r" values="7;11;7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <circle cx="180" cy="65" r="3" fill="#BAE6FD">
+    <animate attributeName="cx" values="140;580;140" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="540" cy="65" r="2" fill="#F8FAFC">
+    <animate attributeName="cy" values="65;45;65;85;65" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+
+<sub>FROSTBYTE CORE // GEOMETRY • MOTION • PRECISION</sub>
+
 </div>
-```
 
-Do not claim that music automatically plays. GitHub README pages cannot autoplay a YouTube player or run a custom music player. Link users to YouTube instead.
+---
 
-### 09 — CAT.exe
+## 💻 `03 / THE MIDNIGHT CODING ROOM`
 
-Add a small animated cat GIF in a dedicated panel with the text:
-
-`CAT.exe // RUNNING`
-
-`STATUS: SUPERVISING DEVELOPER`
-
-`TASK: KEYBOARD INSPECTION`
-
-Use a GIF hosted at a verified public image URL or upload a suitable cat animation into the repository. Include meaningful alt text.
-
-### 10 — TECHNOLOGY MATRIX
-
-Use clean technology icons:
-
-```html
 <div align="center">
-  <img
-    src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=dark"
-    alt="Core development technologies"
-  />
+
+<img width="100%" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Animated cat working at a computer"/>
+
+### `CAT.exe // DEVELOPER SUPERVISION ACTIVE`
+
+`[ MONITOR: ON ]` · `[ MUSIC: READY ]` · `[ PAWS: DETECTED ]`
+
+*Snow outside. Code inside. Cat judging every keystroke.*
+
 </div>
-```
 
-Add more technologies only when they match the developer's real experience.
+---
 
-### 11 — CONNECTION PORTAL
+## 🌨️ `04 / DIGITAL UNIVERSE`
 
-Create a compact, icy social-links section:
+<div align="center">
 
-- **GitHub:** https://github.com/hussixdev
-- **Portfolio:** https://hussidev9.netlify.app/
-- **Agency:** https://hussixplugs.netlify.app/
-- **Telegram:** https://t.me/itzhussi
-- **TikTok:** https://www.tiktok.com/@itz_hussi2
-- **WhatsApp:** https://wa.me/923203405324
-- **Email:** hussidevv@gmail.com
+<svg width="100%" height="100" viewBox="0 0 700 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frostDivider">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset=".5" stop-color="#BAE6FD"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 50 H700" stroke="url(#frostDivider)" stroke-width="1"/>
+  <g fill="none" stroke="#BAE6FD" stroke-width="1.5">
+    <path d="M350 22 V78 M326 36 L374 64 M326 64 L374 36"/>
+    <path d="M350 22 L344 30 M350 22 L356 30 M350 78 L344 70 M350 78 L356 70"/>
+    <path d="M326 36 L336 36 M326 36 L331 45 M374 64 L364 64 M374 64 L369 55"/>
+    <path d="M326 64 L336 64 M326 64 L331 55 M374 36 L364 36 M374 36 L369 45"/>
+  </g>
+</svg>
 
-Use matching shields.io badges with a black, silver, and ice-blue theme.
+</div>
 
-### 12 — FINAL FOOTER
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Add a curved winter footer banner with a subtle frozen gradient, elegant typography, and a small custom snowflake SVG.
+### ❄️ HUSSI DEV PORTFOLIO
 
-**HUSSI DEV — WHERE CREATIVITY FREEZES INTO PERFECTION.**
+My developer identity, website projects, and creative digital experiments.
 
-`[ CONNECTION ESTABLISHED ]`
+[![OPEN PORTFOLIO](https://img.shields.io/badge/OPEN_PORTFOLIO-BAE6FD?style=for-the-badge&labelColor=030712)](https://hussidev9.netlify.app/)
 
-`[ WINTER MODE: ACTIVE ]`
+</td>
+<td width="50%" valign="top">
 
-`COLD DESIGN. HOT IDEAS. LIMITLESS BUILDS.`
+### ⚡ HUSSI X PLUGS
 
-### 13 — FINAL QUALITY CHECK
+My digital agency identity and technology-focused services.
 
-- No placeholder image URLs
-- No broken banner or thumbnail links
-- Consistent winter theme across every section
-- Original SVG accents and readable typography
-- Responsive image widths
-- Correct website and social links
-- Valid Markdown and sanitized HTML
-- No fake statistics
-- No JavaScript-dependent README features
-- No autoplay claims
-- No unnecessary visual clutter
+[![ENTER AGENCY](https://img.shields.io/badge/ENTER_AGENCY-F8FAFC?style=for-the-badge&labelColor=030712)](https://hussixplugs.netlify.app/)
 
-The finished profile must look like a premium anime-inspired developer universe: quiet winter atmosphere, cinematic visuals, animated code identity, a cozy coding room, cat companion, music corner, and professional project showcase.
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
 
-**FREEZE THE ORDINARY. ENGINEER THE EXTRAORDINARY.**>
+### ⌘ GITHUB DEVELOPER LAB
+
+Explore my code, repositories, and experiments.
+
+[![EXPLORE REPOSITORIES](https://img.shields.io/badge/EXPLORE_REPOSITORIES-BAE6FD?style=for-the-badge&labelColor=030712)](https://github.com/hussixdev)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎧 `05 / FROSTBYTE LISTENING ROOM`
+
+<div align="center">
+
+<img width="70%" src="https://img.youtube.com/vi/lNOtv1mXbQ8/hqdefault.jpg" alt="Favorite YouTube track thumbnail"/>
+
+### `NOW ENTERING // MIDNIGHT MUSIC MODE`
+
+[![PLAY FAVORITE TRACK](https://img.shields.io/badge/▶_PLAY_ON_YOUTUBE-BAE6FD?style=for-the-badge&labelColor=030712)](https://www.youtube.com/watch?v=lNOtv1mXbQ8)
+
+<br/>
+
+[🎵 PLAY](https://youtu.be/lNOtv1mXbQ8?si=o5UMjgXIsi3eoFDr)　·　[🌙 REVISIT](https://youtu.be/lNOtv1mXbQ8?si=7bD1t1ELEz2nRw3i)　·　[❄️ OPEN TRACK](https://youtu.be/lNOtv1mXbQ8?si=PFdYlrwSHFw3vI-k)
+
+<sub>One favorite video shared through three links. Open YouTube to listen.</sub>
+
+</div>
+
+---
+
+## 🛠️ `06 / TECHNOLOGY MATRIX`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=dark" alt="Core coding technologies"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,python,figma,netlify&theme=dark" alt="Additional technologies"/>
+
+<sub>Customize the technology list to reflect your actual experience.</sub>
+
+</div>
+
+---
+
+## 📡 `07 / ESTABLISH CONNECTION`
+
+<div align="center">
+
+<a href="https://github.com/hussixdev"><img src="https://img.shields.io/badge/GITHUB-030712?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub"/></a>
+<a href="https://t.me/itzhussi"><img src="https://img.shields.io/badge/TELEGRAM-030712?style=for-the-badge&logo=telegram&logoColor=BAE6FD" alt="Telegram"/></a>
+<a href="https://www.tiktok.com/@itz_hussi2"><img src="https://img.shields.io/badge/TIKTOK-030712?style=for-the-badge&logo=tiktok&logoColor=F8FAFC" alt="TikTok"/></a>
+<a href="https://hussidev9.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-030712?style=for-the-badge&logo=vercel&logoColor=BAE6FD" alt="Portfolio"/></a>
+
+<br/><br/>
+
+**BUSINESS EMAIL:** [hussidevv@gmail.com](mailto:hussidevv@gmail.com)
+
+**WHATSAPP:** [03203405324](https://wa.me/923203405324)
+
+**LOCATION:** KARACHI, PAKISTAN ❄️
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,30:164E63,65:0B1726,100:030712&height=180&section=footer&animation=fadeIn" alt="Frostbyte icy footer banner"/>
+
+# 𓆩 HUSSI DEV 𓆪
+
+### WHERE CREATIVITY FREEZES INTO PERFECTION.
+
+`[ SYSTEM ONLINE ]` · `[ CAT.exe RUNNING ]` · `[ WINTER MODE ACTIVE ]`
+
+**COLD DESIGN. HOT IDEAS. LIMITLESS BUILDS.** ❄️
+
+<sub>END OF TRANSMISSION // SEE YOU IN THE NEXT COMMIT</sub>
+
+</div>
