@@ -1,8 +1,5 @@
 ![Uploading 1097752477945250037.gif…]()
  <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:02040A,35:0B1726,70:164E63,100:BAE6FD&height=260&section=header&text=HUSSI%20DEV&fontSize=76&fontColor=F8FAFC&fontAlignY=40&desc=FROSTBYTE%20%E2%80%A2%20DIGITAL%20UNIVERSE&descSize=19&descAlignY=61&animation=fadeIn" />
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2500&pause=900&color=BAE6FD&center=true&vCenter=true&width=750&lines=%E2%9D%84%EF%B8%8F+INITIALIZING+FROSTBYTE+SYSTEM...;%E2%9C%A6+WINTER+MODE%3A+ACTIVATED;%E2%9F%A1+DEVELOPER+ENVIRONMENT+ONLINE;%E2%9D%84%EF%B8%8F+ENGINEERING+THE+UNEXPECTED" alt="Animated Frostbyte system boot" />
 
 <br/>
