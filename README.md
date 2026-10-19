@@ -1,3 +1,4 @@
+![Uploading 1097752477945250037.gif…]()
  <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:02040A,35:0B1726,70:164E63,100:BAE6FD&height=260&section=header&text=HUSSI%20DEV&fontSize=76&fontColor=F8FAFC&fontAlignY=40&desc=FROSTBYTE%20%E2%80%A2%20DIGITAL%20UNIVERSE&descSize=19&descAlignY=61&animation=fadeIn" />
